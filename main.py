@@ -3,7 +3,7 @@ import json
 import random
 from flask import Flask, request, jsonify
 import requests
-from gevent import pywsgi
+
 app = Flask(__name__)
 
 # 配置日志

@@ -153,49 +153,49 @@ def search_source(user_content):
                 }
             }
         }
-      if rows:
-        for new in rows:
-            print(new[1])
-            status = "关闭" if new[3] == 0 else "启动"
-
-            title = {
-                "tag": "div",
-                "text": {"content": f"{title_icon}**{new[0]}**",
-                         "tag": "lark_md"}
-            }
-
-            introduction = {"tag": "div",
-                            "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
-                                     "tag": "lark_md"}
-                            }
-
-            news_data2 = {
-                "actions": [{
-                    "tag": "button",
-                    "text": {
-                        "content": f"状态 :{status}",
-                        "tag": "lark_md"
-                    },
-                    "url": new[1],
-                    "type": "default",
-                    "value": {}
-                }],
-                "tag": "action",
-            }
-            result["card"]["elements"].append(title)
-            result["card"]["elements"].append(introduction)
-            result["card"]["elements"].append(news_data2)
-            result["card"]["elements"].append({"tag": "hr"})
-      else:
-          result = {
-              "card": {
-                  "elements": [],
-                  "header": {"title": {
-                      "content": "没有该种类信息源",
-                      "tag": "plain_text"
-                  }}
+        if rows:
+            for new in rows:
+                print(new[1])
+                status = "关闭" if new[3] == 0 else "启动"
+    
+                title = {
+                    "tag": "div",
+                    "text": {"content": f"{title_icon}**{new[0]}**",
+                             "tag": "lark_md"}
+                }
+    
+                introduction = {"tag": "div",
+                                "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
+                                         "tag": "lark_md"}
+                                }
+    
+                news_data2 = {
+                    "actions": [{
+                        "tag": "button",
+                        "text": {
+                            "content": f"状态 :{status}",
+                            "tag": "lark_md"
+                        },
+                        "url": new[1],
+                        "type": "default",
+                        "value": {}
+                    }],
+                    "tag": "action",
+                }
+                result["card"]["elements"].append(title)
+                result["card"]["elements"].append(introduction)
+                result["card"]["elements"].append(news_data2)
+                result["card"]["elements"].append({"tag": "hr"})
+        else:
+              result = {
+                  "card": {
+                      "elements": [],
+                      "header": {"title": {
+                          "content": "没有该种类信息源",
+                          "tag": "plain_text"
+                      }}
+                  }
               }
-          }
     else:
         result = {
             "card": {

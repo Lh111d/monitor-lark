@@ -131,13 +131,14 @@ def search_source(user_content):
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{all_name}%';"
     elif "=" in search_name:
         query = search_name.split("=")
-        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{queyr[1]}';"
+        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{query[1]}';"
         print(search_name)
     else:
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{search_name}%';"
         print(sql_query)
 
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
+    logging.info(f"{response.json()}")
     if response:
         rows = response.json()["data"]["executed_result"]["query_result"]["rows"]
         result = {
@@ -152,6 +153,7 @@ def search_source(user_content):
                 }
             }
         }
+      if rows:
         for new in rows:
             print(new[1])
             status = "关闭" if new[3] == 0 else "启动"
@@ -184,16 +186,16 @@ def search_source(user_content):
             result["card"]["elements"].append(introduction)
             result["card"]["elements"].append(news_data2)
             result["card"]["elements"].append({"tag": "hr"})
-        else:
-            result = {
-                "card": {
-                    "elements": [],
-                    "header": {"title": {
-                        "content": "没有该种类信息源",
-                        "tag": "plain_text"
-                    }}
-                }
-            }
+      else:
+          result = {
+              "card": {
+                  "elements": [],
+                  "header": {"title": {
+                      "content": "没有该种类信息源",
+                      "tag": "plain_text"
+                  }}
+              }
+          }
     else:
         result = {
             "card": {

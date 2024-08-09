@@ -108,6 +108,10 @@ def post_url(db_id, sql_query):
         return 0
 
 def search_source(user_content):
+    icon = random.choice(ICON_LIST)
+    title_icon = random.choice(ICON_LIST)
+    introduction_icon = random.choice(ICON_LIST)
+    href_icon = random.choice(ICON_LIST)
     content = {
         "card": {
             "elements": [],

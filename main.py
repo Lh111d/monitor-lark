@@ -51,7 +51,8 @@ def handle_message(text_content):
     if '查看信息源' in content or '查看启动的信息源' in content or '查看关闭的信息源' in content:
         logging.info(content)
         news_source = find_all_source(content)
-        push_lark(news_source)
+        for i in news_source:
+            push_lark(i)
 
     elif '添加信息源-' in content:
         logging.info("添加信息源")
@@ -108,10 +109,6 @@ def post_url(db_id, sql_query):
         return 0
 
 def search_source(user_content):
-    icon = random.choice(ICON_LIST)
-    title_icon = random.choice(ICON_LIST)
-    introduction_icon = random.choice(ICON_LIST)
-    href_icon = random.choice(ICON_LIST)
     content = {
         "card": {
             "elements": [],
@@ -131,14 +128,13 @@ def search_source(user_content):
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{all_name}%';"
     elif "=" in search_name:
         query = search_name.split("=")
-        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{query[1]}';"
+        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{queyr[1]}';"
         print(search_name)
     else:
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{search_name}%';"
         print(sql_query)
 
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
-    logging.info(f"{response.json()}")
     if response:
         rows = response.json()["data"]["executed_result"]["query_result"]["rows"]
         result = {
@@ -153,49 +149,48 @@ def search_source(user_content):
                 }
             }
         }
-        if rows:
-            for new in rows:
-                print(new[1])
-                status = "关闭" if new[3] == 0 else "启动"
-    
-                title = {
-                    "tag": "div",
-                    "text": {"content": f"{title_icon}**{new[0]}**",
-                             "tag": "lark_md"}
-                }
-    
-                introduction = {"tag": "div",
-                                "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
-                                         "tag": "lark_md"}
-                                }
-    
-                news_data2 = {
-                    "actions": [{
-                        "tag": "button",
-                        "text": {
-                            "content": f"状态 :{status}",
-                            "tag": "lark_md"
-                        },
-                        "url": new[1],
-                        "type": "default",
-                        "value": {}
-                    }],
-                    "tag": "action",
-                }
-                result["card"]["elements"].append(title)
-                result["card"]["elements"].append(introduction)
-                result["card"]["elements"].append(news_data2)
-                result["card"]["elements"].append({"tag": "hr"})
+        for new in rows:
+            print(new[1])
+            status = "关闭" if new[3] == 0 else "启动"
+
+            title = {
+                "tag": "div",
+                "text": {"content": f"{title_icon}**{new[0]}**",
+                         "tag": "lark_md"}
+            }
+
+            introduction = {"tag": "div",
+                            "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
+                                     "tag": "lark_md"}
+                            }
+
+            news_data2 = {
+                "actions": [{
+                    "tag": "button",
+                    "text": {
+                        "content": f"状态 :{status}",
+                        "tag": "lark_md"
+                    },
+                    "url": new[1],
+                    "type": "default",
+                    "value": {}
+                }],
+                "tag": "action",
+            }
+            result["card"]["elements"].append(title)
+            result["card"]["elements"].append(introduction)
+            result["card"]["elements"].append(news_data2)
+            result["card"]["elements"].append({"tag": "hr"})
         else:
-              result = {
-                  "card": {
-                      "elements": [],
-                      "header": {"title": {
-                          "content": "没有该种类信息源",
-                          "tag": "plain_text"
-                      }}
-                  }
-              }
+            result = {
+                "card": {
+                    "elements": [],
+                    "header": {"title": {
+                        "content": "没有该种类信息源",
+                        "tag": "plain_text"
+                    }}
+                }
+            }
     else:
         result = {
             "card": {
@@ -339,52 +334,58 @@ def find_all_source(content):
         sql_query = "SELECT * FROM information_source;"
 
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
+    contents = []
     if response:
         rows = response.json()["data"]["executed_result"]["query_result"]["rows"]
-        content = {
-            "card": {
-                "elements": [{"tag": "hr"}],
-                "header": {
-                    "title": {
-                        "content": f"{icon}信息源",
-                        "tag": "plain_text"
+        mid_index = len(rows) // 2
+        segments = [rows[:mid_index], rows[mid_index:]]
+        for segment in segments:
+            content = {
+                "card": {
+                    "elements": [{"tag": "hr"}],
+                    "header": {
+                        "title": {
+                            "content": f"{icon}信息源",
+                            "tag": "plain_text"
 
+                        }
                     }
                 }
             }
-        }
-        for new in rows:
-            print(new[1])
-            status = "关闭" if new[3] == 0 else "启动"
-
-            title = {
-                "tag": "div",
-                "text": {"content": f"{title_icon}**{new[0]}**",
-                         "tag": "lark_md"}
-            }
-
-            introduction = {"tag": "div",
-                            "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
-                                     "tag": "lark_md"}
-                            }
-
-            news_data2 = {
-                "actions": [{
-                    "tag": "button",
-                    "text": {
-                        "content": f"状态 :{status}",
-                        "tag": "lark_md"
-                    },
-                    "url": new[1],
-                    "type": "default",
-                    "value": {}
-                }],
-                "tag": "action",
-            }
-            content["card"]["elements"].append(title)
-            content["card"]["elements"].append(introduction)
-            content["card"]["elements"].append(news_data2)
-            content["card"]["elements"].append({"tag": "hr"})
+            for new in segment:
+                print(new[1])
+                status = "关闭" if new[3] == 0 else "启动"
+    
+                title = {
+                    "tag": "div",
+                    "text": {"content": f"{title_icon}**{new[0]}**",
+                             "tag": "lark_md"}
+                }
+    
+                introduction = {"tag": "div",
+                                "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
+                                         "tag": "lark_md"}
+                                }
+    
+                news_data2 = {
+                    "actions": [{
+                        "tag": "button",
+                        "text": {
+                            "content": f"状态 :{status}",
+                            "tag": "lark_md"
+                        },
+                        "url": new[1],
+                        "type": "default",
+                        "value": {}
+                    }],
+                    "tag": "action",
+                }
+                content["card"]["elements"].append(title)
+                content["card"]["elements"].append(introduction)
+                content["card"]["elements"].append(news_data2)
+                content["card"]["elements"].append({"tag": "hr"})
+                
+            contents.append(content)
     else:
         content = {
             "card": {
@@ -395,7 +396,8 @@ def find_all_source(content):
                 }}
             }
         }
-    return content
+        contents.append(content)
+    return contents
 
 
 def push_lark(content):

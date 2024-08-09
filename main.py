@@ -126,7 +126,9 @@ def search_source(user_content):
         all_name = '%'.join(search_name)
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{all_name}%';"
     elif "=" in search_name:
-        sql_query = f"SELECT * FROM information_source WHERE {search_name};"
+        query = search_name.split("=")
+        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{queyr[1]}';"
+        print(search_name)
     else:
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{search_name}%';"
         print(sql_query)
@@ -134,32 +136,50 @@ def search_source(user_content):
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
     if response:
         rows = response.json()["data"]["executed_result"]["query_result"]["rows"]
-        if rows:
-            for new in rows:
-                status = "关闭" if new[3] == 0 else "启动"
+        result = {
+            "card": {
+                "elements": [{"tag": "hr"}],
+                "header": {
+                    "title": {
+                        "content": f"{icon}信息源",
+                        "tag": "plain_text"
 
-                news_data0 = {"tag": "div",
-                              "text": {"content": f"名称：{new[0]} ；种类：{new[2]} ；链接：{new[1]}",
-                                       "tag": "lark_md"}
-                              }
-
-                news_data2 = {
-                    "actions": [{
-                        "tag": "button",
-                        "text": {
-                            "content": f"状态 :{status}",
-                            "tag": "lark_md"
-                        },
-                        "url": new[1],
-                        "type": "default",
-                        "value": {}
-                    }],
-                    "tag": "action"
+                    }
                 }
+            }
+        }
+        for new in rows:
+            print(new[1])
+            status = "关闭" if new[3] == 0 else "启动"
 
-                content["card"]["elements"].append(news_data0)
-                content["card"]["elements"].append(news_data2)
-            return content
+            title = {
+                "tag": "div",
+                "text": {"content": f"{title_icon}**{new[0]}**",
+                         "tag": "lark_md"}
+            }
+
+            introduction = {"tag": "div",
+                            "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
+                                     "tag": "lark_md"}
+                            }
+
+            news_data2 = {
+                "actions": [{
+                    "tag": "button",
+                    "text": {
+                        "content": f"状态 :{status}",
+                        "tag": "lark_md"
+                    },
+                    "url": new[1],
+                    "type": "default",
+                    "value": {}
+                }],
+                "tag": "action",
+            }
+            result["card"]["elements"].append(title)
+            result["card"]["elements"].append(introduction)
+            result["card"]["elements"].append(news_data2)
+            result["card"]["elements"].append({"tag": "hr"})
         else:
             result = {
                 "card": {
@@ -203,7 +223,7 @@ def guide():
                   }
     news_data1 = {"tag": "div",
                   "text": {
-                      "content": f"{title_icon}搜索信息源请输入：搜索-你想要查询的种类-相关信息源，将关键词用-包含即可.\n例如:**搜索-经济-相关信息源**",
+                      "content": f"{title_icon}搜索信息源请输入：搜索-你想要查询的种类-相关信息源，将关键词用-包含即可.\n例如:**搜索-经济-相关信息源**\n例如:**搜索-经济,文化-相关信息源**\n例如:**搜索-name=量子位-相关信息源**",
                       "tag": "lark_md"}
                   }
 
@@ -306,11 +326,11 @@ def find_all_source(content):
     introduction_icon = random.choice(ICON_LIST)
     href_icon = random.choice(ICON_LIST)
     if "关闭" in content:
-        sql_query = "SELECT * FROM information_source WHERE status = 0"
+        sql_query = "SELECT * FROM information_source WHERE status = 0;"
     elif "启动" in content:
-        sql_query = "SELECT * FROM information_source WHERE status = 1"
+        sql_query = "SELECT * FROM information_source WHERE status = 1;"
     else:
-        sql_query = "SELECT * FROM information_source"
+        sql_query = "SELECT * FROM information_source;"
 
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
     if response:

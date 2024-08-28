@@ -19,7 +19,7 @@ ICON_LIST = ["🍼", "☕", "🥛", "🥃", "🍺", "🍨", "🍩", "🍪", "�
 
 
 # 处理飞书事件的路由
-@app.route('/feishu/event', methods=['POST'])
+@app.route('/', methods=['POST'])
 def feishu_event():
     req_data = request.get_json()
     print(req_data)
@@ -528,7 +528,7 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=7286, debug=True)
-    # server = pywsgi.WSGIServer(('0.0.0.0', 6280), app)
+    app.run(host="0.0.0.0", port=6200, debug=True)
+    # server = pywsgi.WSGIServer(('127.0.0.1', 6200), app)
     # server.serve_forever()
 

@@ -24,7 +24,7 @@ def feishu_event():
     # Get JSON data from the request
     req_data = request.get_json()
     print(req_data)
-    logging.info(f"Received event: {json.dumps(req_data)}")
+    logging.info(f"Received event: {json.dumps(req_data,ensure_ascii=False)}")
 
     try:
         # Extract message content and user ID
@@ -42,7 +42,7 @@ def feishu_event():
             handle_message(text_content, user_id)
     except Exception as e:
         logging.info(f"Failed to extract content: {e}")
-        return jsonify({'error': str(e)})  # Return an error response if exception occurs
+        return jsonify({'challenge': f"Failed to extract content: {e}"})  # Return an error response if exception occurs
 
     # Respond to Feishu challenge for webhook verification
     if 'challenge' in req_data:
@@ -536,6 +536,7 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
+    print(1111111111111111111111111111111111)
     app.run(host="0.0.0.0", port=6238, debug=True)
     # server = pywsgi.WSGIServer(('127.0.0.1', 6200), app)
     # server.serve_forever()

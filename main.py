@@ -42,7 +42,6 @@ def feishu_event():
             handle_message(text_content, user_id)
     except Exception as e:
         logging.info(f"Failed to extract content: {e}")
-        return jsonify({'challenge': f"Failed to extract content: {e}"})  # Return an error response if exception occurs
 
     # Respond to Feishu challenge for webhook verification
     if 'challenge' in req_data:

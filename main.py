@@ -528,7 +528,7 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=6200, debug=True)
+    app.run(host="0.0.0.0", port=6280, debug=True)
     # server = pywsgi.WSGIServer(('127.0.0.1', 6280), app)
     # server.serve_forever()
 

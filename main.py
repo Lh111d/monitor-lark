@@ -42,13 +42,13 @@ def feishu_event():
             handle_message(text_content, user_id)
     except Exception as e:
         logging.info(f"Failed to extract content: {e}")
-        return jsonify({'error': str(e)}), 400  # Return an error response if exception occurs
+        return jsonify({'error': str(e)})  # Return an error response if exception occurs
 
     # Respond to Feishu challenge for webhook verification
     if 'challenge' in req_data:
         return jsonify({'challenge': req_data['challenge']})
 
-    return jsonify({})
+    return jsonify({"success":"true"})
 
 
 
@@ -536,8 +536,7 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
-    print(1111111111111111111111111111111111)
-    app.run(host="0.0.0.0", port=6200, debug=True)
+    app.run(host="0.0.0.0", port=6238, debug=True)
     # server = pywsgi.WSGIServer(('127.0.0.1', 6200), app)
     # server.serve_forever()
 

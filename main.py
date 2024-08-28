@@ -11,12 +11,13 @@ log_file = "./logging.log"
 logging.basicConfig(filename=log_file, level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-
 ICON_LIST = ["🍼", "☕", "🥛", "🥃", "🍺", "🍨", "🍩", "🍪", "🍧", "🍦", "🍭", "🎂", "🍰", "🍫", "🥧", "🧁", "🍬", "🍮",
              "🍯", "🍵", "🍸", "🍹", "🧊", "🧃", "🧉", "🍣", "🍇", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "🍎", "🍏", "🍐",
              "🍑", "🍒", "🍓", "🥝", "🍅", "🥥", "🍡", "🍤", "🍥", "🍛", "🍿", "🍕", "🍔", "🌈", "🦄", "🐶", "🦊", "🦓",
              "🐷", "🐄", "🐼", "🦚", "🐳", "🚀", "🌌", "🌀", "❄", "🌊", "🪐", "🎃", "🎄", "🎆", "🏆", "⚽", "⚾", "🥎",
              "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳", "🏓", "🏸", "🥊", "🔮", "🎲"]
+
+
 # 处理飞书事件的路由
 @app.route('/feishu/event', methods=['POST'])
 def feishu_event():
@@ -28,13 +29,13 @@ def feishu_event():
         message_content = req_data['event']['message']['content']
         content_dict = json.loads(message_content)
         text_content = content_dict.get('text', '')
-
+        user_id = req_data['event']['sender']['sender_id'].get('user_id','')
         # 提取 name
         mentions = req_data['event']['message'].get('mentions', [])
         names = [mention.get('name', '') for mention in mentions]
         # 处理 im.message.receive_v1 事件
         if "information source" in names:
-            handle_message(text_content)
+            handle_message(text_content,user_id)
     except Exception as e:
         logging.info(f"提取content失败: {e}")
 
@@ -43,7 +44,7 @@ def feishu_event():
     return jsonify()
 
 
-def handle_message(text_content):
+def handle_message(text_content,user_id):
     """
     处理消息逻辑
     """
@@ -78,7 +79,14 @@ def handle_message(text_content):
         news_source = guide()
         push_lark(news_source)
 
+    elif '查看订阅内容' in content:
+        result = sub_information()
+        for i in result:
+            push_lark(i)
 
+    elif '订阅-' in content:
+        result = sub_add(content,user_id)
+        push_lark(result)
 
     else:
         logging.info("无效命令")
@@ -108,7 +116,111 @@ def post_url(db_id, sql_query):
         logging.info(f"{response.status_code},{response.json()}")
         return 0
 
+
+
+def sub_add(content,user_id):
+    subscription_content = content.split("-")[2]
+    subscription_type = content.split("-")[1]
+    sql_query = f"INSERT INTO subscription_information (receive_id,subscription_content,status,subscription_type) VALUES ('{user_id}', '{subscription_type}', 1,'{subscription_content}');"
+    response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
+    if response:
+        result = {
+            "card": {
+                "elements": [],
+                "header": {"title": {
+                    "content": "添加成功",
+                    "tag": "plain_text"
+                }}
+            }
+        }
+    else:
+        result = {
+            "card": {
+                "elements": [],
+                "header": {"title": {
+                    "content": "添加失败",
+                    "tag": "plain_text"
+                }}
+            }
+        }
+    return result
+
+def sub_information():
+    icon = random.choice(ICON_LIST)
+    title_icon = random.choice(ICON_LIST)
+    introduction_icon = random.choice(ICON_LIST)
+    href_icon = random.choice(ICON_LIST)
+    sql_query = "SELECT * FROM subscription_information;"
+    response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643",sql_query)
+    contents = []
+    if response:
+        rows = response.json()["data"]["executed_result"]["query_result"]["rows"]
+        mid_index = len(rows) // 2
+        segments = [rows[:mid_index], rows[mid_index:]]
+        for segment in segments:
+            content = {
+                "card": {
+                    "elements": [{"tag": "hr"}],
+                    "header": {
+                        "title": {
+                            "content": f"{icon}订阅信息",
+                            "tag": "plain_text"
+
+                        }
+                    }
+                }
+            }
+            for new in segment:
+                status = "关闭" if new[2] == 0 else "启动"
+
+                title = {
+                    "tag": "div",
+                    "text": {"content": f"{title_icon}**{new[0]}**",
+                             "tag": "lark_md"}
+                }
+
+                introduction = {"tag": "div",
+                                "text": {"content": f"{introduction_icon}订阅类型:{new[1]}\n{href_icon}订阅内容:{new[3]}",
+                                         "tag": "lark_md"}
+                                }
+
+                news_data2 = {
+                    "actions": [{
+                        "tag": "button",
+                        "text": {
+                            "content": f"状态 :{status}",
+                            "tag": "lark_md"
+                        },
+                        "type": "default",
+                        "value": {}
+                    }],
+                    "tag": "action",
+                }
+                content["card"]["elements"].append(title)
+                content["card"]["elements"].append(introduction)
+                content["card"]["elements"].append(news_data2)
+                content["card"]["elements"].append({"tag": "hr"})
+
+            contents.append(content)
+    else:
+        content = {
+            "card": {
+                "elements": [],
+                "header": {"title": {
+                    "content": "请求失败",
+                    "tag": "plain_text"
+                }}
+            }
+        }
+        contents.append(content)
+    return contents
+
+
 def search_source(user_content):
+    icon = random.choice(ICON_LIST)
+    title_icon = random.choice(ICON_LIST)
+    introduction_icon = random.choice(ICON_LIST)
+    href_icon = random.choice(ICON_LIST)
     content = {
         "card": {
             "elements": [],
@@ -128,7 +240,7 @@ def search_source(user_content):
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{all_name}%';"
     elif "=" in search_name:
         query = search_name.split("=")
-        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{queyr[1]}';"
+        sql_query = f"SELECT * FROM information_source WHERE {query[0]}='{query[1]}';"
         print(search_name)
     else:
         sql_query = f"SELECT * FROM information_source WHERE category LIKE '%{search_name}%';"
@@ -218,9 +330,10 @@ def guide():
         }
     }
     news_data0 = {"tag": "div",
-                  "text": {"content": f"{title_icon}查看所有信息源请输入：(查看信息源)五个关键字即可查看.\n例如:**查看信息源**,**查看启动的信息源**,**查看关闭的信息源**",
-                           "tag": "lark_md",
-                           }
+                  "text": {
+                      "content": f"{title_icon}查看所有信息源请输入：(查看信息源)五个关键字即可查看.\n例如:**查看信息源**,**查看启动的信息源**,**查看关闭的信息源**",
+                      "tag": "lark_md",
+                      }
                   }
     news_data1 = {"tag": "div",
                   "text": {
@@ -276,7 +389,7 @@ def add_source(content):
     print("add_source>>>>>")
     x = content.split('-')
     name, url, category, status = x[1], x[2], x[3], x[4]
-    print(">>>>>>>>>>>>>>>>>>>",name, url, category, status)
+    print(">>>>>>>>>>>>>>>>>>>", name, url, category, status)
     sql_query1 = "SELECT name FROM information_source"
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query1)
     if response:
@@ -355,18 +468,18 @@ def find_all_source(content):
             for new in segment:
                 print(new[1])
                 status = "关闭" if new[3] == 0 else "启动"
-    
+
                 title = {
                     "tag": "div",
                     "text": {"content": f"{title_icon}**{new[0]}**",
                              "tag": "lark_md"}
                 }
-    
+
                 introduction = {"tag": "div",
                                 "text": {"content": f"{introduction_icon}简介:{new[2]}\n{href_icon}链接:{new[1]}",
                                          "tag": "lark_md"}
                                 }
-    
+
                 news_data2 = {
                     "actions": [{
                         "tag": "button",
@@ -384,7 +497,7 @@ def find_all_source(content):
                 content["card"]["elements"].append(introduction)
                 content["card"]["elements"].append(news_data2)
                 content["card"]["elements"].append({"tag": "hr"})
-                
+
             contents.append(content)
     else:
         content = {
@@ -418,5 +531,4 @@ if __name__ == '__main__':
     app.run(host="0.0.0.0", port=6200, debug=True)
     # server = pywsgi.WSGIServer(('127.0.0.1', 6200), app)
     # server.serve_forever()
-
 

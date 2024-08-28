@@ -3,7 +3,6 @@ import json
 import random
 from flask import Flask, request, jsonify
 import requests
-from gevent import pywsgi
 
 app = Flask(__name__)
 
@@ -529,7 +528,7 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
-    # app.run(host="0.0.0.0", port=6280, debug=True)
-    server = pywsgi.WSGIServer(('0.0.0.0', 6280), app)
-    server.serve_forever()
+    app.run(host="0.0.0.0", port=7286, debug=True)
+    # server = pywsgi.WSGIServer(('0.0.0.0', 6280), app)
+    # server.serve_forever()
 

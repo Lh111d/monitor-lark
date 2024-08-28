@@ -19,29 +19,37 @@ ICON_LIST = ["🍼", "☕", "🥛", "🥃", "🍺", "🍨", "🍩", "🍪", "�
 
 
 # 处理飞书事件的路由
-@app.route('/', methods=['POST'])
+@app.route('/lark/event', methods=['POST'])
 def feishu_event():
+    # Get JSON data from the request
     req_data = request.get_json()
     print(req_data)
     logging.info(f"Received event: {json.dumps(req_data)}")
-    # 提取 content
+
     try:
+        # Extract message content and user ID
         message_content = req_data['event']['message']['content']
         content_dict = json.loads(message_content)
         text_content = content_dict.get('text', '')
-        user_id = req_data['event']['sender']['sender_id'].get('user_id','')
-        # 提取 name
+        user_id = req_data['event']['sender']['sender_id'].get('user_id', '')
+
+        # Extract mentioned names
         mentions = req_data['event']['message'].get('mentions', [])
         names = [mention.get('name', '') for mention in mentions]
-        # 处理 im.message.receive_v1 事件
-        if "information source" in names:
-            handle_message(text_content,user_id)
-    except Exception as e:
-        logging.info(f"提取content失败: {e}")
 
+        # Handle specific events
+        if "information source" in names:
+            handle_message(text_content, user_id)
+    except Exception as e:
+        logging.info(f"Failed to extract content: {e}")
+        return jsonify({'error': str(e)}), 400  # Return an error response if exception occurs
+
+    # Respond to Feishu challenge for webhook verification
     if 'challenge' in req_data:
         return jsonify({'challenge': req_data['challenge']})
-    return jsonify()
+
+    return jsonify({})
+
 
 
 def handle_message(text_content,user_id):
@@ -528,7 +536,8 @@ def push_lark(content):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=6200, debug=True)
+    print(1111111111111111111111111111111111)
+    # app.run(host="0.0.0.0", port=6200, debug=True)
     # server = pywsgi.WSGIServer(('127.0.0.1', 6200), app)
     # server.serve_forever()
 

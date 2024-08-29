@@ -395,7 +395,7 @@ def guide():
                   }
     news_data4 = {"tag": "div",
                     "text": {
-                        "content": f"{title_icon}查看订阅信息请输入：(查看订阅内容)六个关键字即可查看.\n例如:**查看订阅内容**,
+                        "content": f"{title_icon}查看订阅信息请输入：(查看订阅内容)六个关键字即可查看.\n例如:**查看订阅内容**",
                         "tag": "lark_md"}
                     }
     news_data5 = {"tag": "div",

@@ -87,14 +87,22 @@ def handle_message(text_content,user_id):
         push_lark(news_source)
 
     elif '查看订阅内容' in content:
-        result = sub_information()
+        result = sub_information(user_id)
         for i in result:
             push_lark(i)
 
     elif '订阅-' in content:
         result = sub_add(content,user_id)
         push_lark(result)
-
+  
+    elif '关闭订阅内容-' in content:
+        result = change_sub_information(content,user_id,0)
+        push_lark(result)
+        
+    elif '打开订阅内容-' in content:
+        result = change_sub_information(content,user_id,1)
+        push_lark(result)
+  
     else:
         logging.info("无效命令")
         pass
@@ -152,12 +160,12 @@ def sub_add(content,user_id):
         }
     return result
 
-def sub_information():
+def sub_information(user_id):
     icon = random.choice(ICON_LIST)
     title_icon = random.choice(ICON_LIST)
     introduction_icon = random.choice(ICON_LIST)
     href_icon = random.choice(ICON_LIST)
-    sql_query = "SELECT * FROM subscription_information;"
+    sql_query = f"SELECT * FROM subscription_information WHERE receive_id = '{user_id}';"
     response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643",sql_query)
     contents = []
     if response:
@@ -222,6 +230,33 @@ def sub_information():
         contents.append(content)
     return contents
 
+def change_sub_information(content,user_id,status):
+    sub_content = content.split("-")[1]
+    sql_query = f"UPDATE subscription_information SET status={status} where receive_id='{user_id}' and subscription_content = '{sub_content}';"
+    response = post_url("76a6b495-0733-4a62-91c3-770bfd9c7643", sql_query)
+    turn = "关闭" if status == 0 else "启动"
+    if response:
+        result = {
+            "card": {
+                "elements": [],
+                "header": {"title": {
+                    "content": f"{turn}订阅类型-{sub_content}成功",
+                    "tag": "plain_text"
+                }}
+            }
+        }
+
+    else:
+        result = {
+            "card": {
+                "elements": [],
+                "header": {"title": {
+                    "content": "请求失败",
+                    "tag": "plain_text"
+                }}
+            }
+        }
+    return result
 
 def search_source(user_content):
     icon = random.choice(ICON_LIST)

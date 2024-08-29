@@ -393,8 +393,24 @@ def guide():
                       "content": f"{title_icon}改变信息源状态请输入：关闭(打开)信息源-name，输入关键词前用-开头即可.\n例如:**打开信息源-量子位**",
                       "tag": "lark_md"}
                   }
+    news_data4 = {"tag": "div",
+                    "text": {
+                        "content": f"{title_icon}查看订阅信息请输入：(查看订阅内容)六个关键字即可查看.\n例如:**查看订阅内容**,
+                        "tag": "lark_md"}
+                    }
+    news_data5 = {"tag": "div",
+                    "text": {
+                        "content": f"{title_icon}添加订阅信息请输入：订阅-订阅类型-订阅内容，输入关键词前用-开头即可.\n例如:**订阅-web3,game-提取游戏玩法，游戏亮点，剧情设计，市场等**",
+                        "tag": "lark_md"}
+                    }
 
-    content["card"]["elements"] = [news_data0, news_data1, news_data2, news_data3]
+    news_data6 = {"tag": "div",
+                  "text": {
+                      "content": f"{title_icon}改变信息源状态请输入：关闭(打开)订阅内容-订阅内容，输入关键词前用-开头即可.\n例如:**打开订阅内容-新闻**",
+                      "tag": "lark_md"}
+                  }
+
+    content["card"]["elements"] = [news_data0, news_data1, news_data2, news_data3, news_data4, news_data5, news_data6]
     return content
 
 

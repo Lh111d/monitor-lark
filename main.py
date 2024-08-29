@@ -521,7 +521,7 @@ def find_all_source(content):
 
 
 def push_lark(content):
-    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5'
+    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
     params = {
         "msg_type": "interactive",
     }

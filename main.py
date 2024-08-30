@@ -138,7 +138,7 @@ def post_url(db_id, sql_query):
 def topic_log(thread_id):
   try:
     # 定义请求URL
-        url = "https://flow.service.agione.ai/api/flow/service/8e0d28b4-0bd9-4bc5-bb2d-03b383f77593"
+        url = "https://flow.service.agione.ai/api/flow/service/12b7d679-bc66-4ed8-b36a-2161333f64bd"
         headers = {
             "Content-Type": "application/json",
             "api-key": "fl-zhixingqidian2099"
@@ -629,7 +629,7 @@ def push_lark(content):
 
 
 def test_lark(content):
-    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/12b7d679-bc66-4ed8-b36a-2161333f64bd'
+    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
     params = {
         "msg_type": "interactive",
     }

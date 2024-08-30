@@ -655,7 +655,7 @@ def test_lark(content):
         payload = json.dumps({
         	"content": json.dumps({"text":text[0]}),
         	"msg_type": "text",
-        	"receive_id": receive_ids
+        	"receive_id": receive_id
         })
         logging.info(f"payload,{payload}")
         

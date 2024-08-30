@@ -631,6 +631,22 @@ def push_lark(content):
 
 
 def test_lark(content):
+    app_id = "cli_a62a0213e5b89009"
+    app_secret = "4K8JtkGsQ04hWP6Z6R6s6e7IxmzhMvvD"
+    url = 'https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal'
+    data = {
+        "app_id": app_id,
+        "app_secret": app_secret
+    }
+    headers = {
+        "Content-Type":"application/json; charset=utf-8"
+    }
+    response = requests.post(url, headers=headers, json=data)
+    
+    print(f"response >> {response.text}")
+
+    my_json = response.json()
+    tenant_access_token = my_json["tenant_access_token"]
     text = content.split("###")
     receive_ids = text[1].split(",")
     logging.info(f"receive_ids,{receive_ids}")
@@ -645,7 +661,7 @@ def test_lark(content):
         
         headers = {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer t-g2058u9u74HUSHM2QWJRDL5SDCFJ3ZHQDRZUI5K7'
+          'Authorization': f"Bearer {tenant_access_token}"
         }
         
         response = requests.request("POST", url, headers=headers, data=payload)

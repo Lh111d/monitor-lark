@@ -657,6 +657,7 @@ def test_lark(content):
         	"msg_type": "text",
         	"receive_id": receive_ids
         })
+        logging.info(f"payload,{payload}")
         
         
         headers = {

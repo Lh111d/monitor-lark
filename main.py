@@ -104,8 +104,8 @@ def handle_message(text_content,user_id,thread_id):
         result = change_sub_information(content,user_id,1)
         push_lark(result)
     elif '结束记录' in content:
-        result = topic_log(thread_id)
-        test_lark(result)
+        result,x = topic_log(thread_id)
+        test_lark(x)
     else:
         logging.info("无效命令")
         pass
@@ -173,7 +173,7 @@ def topic_log(thread_id):
                         }
                     }
   content["card"]["elements"] = [news_data0]
-  return content
+  return content,results
 
 
 def sub_add(content,user_id):

@@ -109,7 +109,7 @@ def handle_message(text_content,user_id,thread_id):
     else:
         logging.info("无效命令")
         pass
-
+    return 0
 
 # 数据库请求
 def post_url(db_id, sql_query):
@@ -640,6 +640,7 @@ def test_lark(content):
         params[key] = values
     response = requests.post(url, json=params, headers=headers)
     logging.info(f"{response.status_code}:{response.json()}")
+    return 0
 
 
 if __name__ == '__main__':

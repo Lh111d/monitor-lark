@@ -152,9 +152,11 @@ def topic_log(thread_id):
         if response.status_code ==200:
             results_json = response.json()
             results = results_json.get('result',"")
+            logging.info(f"topic_log,{results}")
             # print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>results",results)
   except Exception as e:
       results = ""
+      logging.info(f"topic_log,{results}")
   content = {
       "card": {
           "elements": [],
@@ -631,12 +633,13 @@ def push_lark(content):
 def test_lark(content):
     text = content.split("###")
     receive_ids = text[1].split(",")
+    logging.info(f"receive_ids,{receive_ids}")
     for receive_id in receive_ids:
         url = "https://open.larksuite.com/open-apis/im/v1/messages?receive_id_type=open_id"
         payload = json.dumps({
         	"content": json.dumps({"text":text[0]}),
         	"msg_type": "text",
-        	"receive_id": "ou_d8f9831d5b595021f83080feba7151ec"
+        	"receive_id": receive_ids
         })
         
         
@@ -647,6 +650,7 @@ def test_lark(content):
         
         response = requests.request("POST", url, headers=headers, data=payload)
         time.sleep(2)
+        logging.info(f"test_lark,{response}")
         print(response.text)
     return 0
     # url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'

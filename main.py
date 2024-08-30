@@ -138,7 +138,7 @@ def post_url(db_id, sql_query):
 def topic_log(thread_id):
   try:
     # 定义请求URL
-        url = "https://flow.service.agione.ai/api/flow/service/12b7d679-bc66-4ed8-b36a-2161333f64bd"
+        url = "https://flow.service.agione.ai/api/flow/service/acab0702-0d96-4b8e-93c5-6643ab7ba39c"
         headers = {
             "Content-Type": "application/json",
             "api-key": "fl-zhixingqidian2099"
@@ -629,18 +629,38 @@ def push_lark(content):
 
 
 def test_lark(content):
-    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
-    params = {
-        "msg_type": "interactive",
-    }
-    headers = {
-        'Content-Type': 'application/json',
-    }
-    for key, values in content.items():
-        params[key] = values
-    response = requests.post(url, json=params, headers=headers)
-    logging.info(f"{response.status_code}:{response.json()}")
+    text = content.split("###")
+    receive_ids = text[1].split(",")
+    for receive_id in receive_ids:
+        url = "https://open.larksuite.com/open-apis/im/v1/messages?receive_id_type=open_id"
+        payload = json.dumps({
+        	"content": json.dumps({"text":text[0]}),
+        	"msg_type": "text",
+        	"receive_id": "ou_d8f9831d5b595021f83080feba7151ec"
+        })
+        
+        
+        headers = {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer t-g2058u9u74HUSHM2QWJRDL5SDCFJ3ZHQDRZUI5K7'
+        }
+        
+        response = requests.request("POST", url, headers=headers, data=payload)
+        time.sleep(2)
+        print(response.text)
     return 0
+    # url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
+    # params = {
+    #     "msg_type": "interactive",
+    # }
+    # headers = {
+    #     'Content-Type': 'application/json',
+    # }
+    # for key, values in content.items():
+    #     params[key] = values
+    # response = requests.post(url, json=params, headers=headers)
+    # logging.info(f"{response.status_code}:{response.json()}")
+    # return 0
 
 
 if __name__ == '__main__':

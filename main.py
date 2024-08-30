@@ -35,11 +35,12 @@ def feishu_event():
 
         # Extract mentioned names
         mentions = req_data['event']['message'].get('mentions', [])
+        thread_id = req_data['event']['message'].get('thread_id', "")
         names = [mention.get('name', '') for mention in mentions]
 
         # Handle specific events
         if "information source" in names:
-            handle_message(text_content, user_id)
+            handle_message(text_content, user_id,thread_id)
     except Exception as e:
         logging.info(f"Failed to extract content: {e}")
 
@@ -51,7 +52,7 @@ def feishu_event():
 
 
 
-def handle_message(text_content,user_id):
+def handle_message(text_content,user_id,thread_id):
     """
     处理消息逻辑
     """
@@ -102,7 +103,9 @@ def handle_message(text_content,user_id):
     elif '打开订阅内容-' in content:
         result = change_sub_information(content,user_id,1)
         push_lark(result)
-  
+    elif '结束记录' in content:
+        result = topic_log(thread_id)
+        test_lark(result)
     else:
         logging.info("无效命令")
         pass
@@ -131,6 +134,46 @@ def post_url(db_id, sql_query):
         logging.info(f"{response.status_code},{response.json()}")
         return 0
 
+
+def topic_log(thread_id):
+  try:
+    # 定义请求URL
+        url = "https://flow.service.agione.ai/api/flow/service/ed10e794-4474-433a-99bc-ca5acdc06e1c"
+        headers = {
+            "Content-Type": "application/json",
+            "api-key": "fl-zhixingqidian2099"
+        }
+        data = {
+            "project_id": "internal_knowledge-topic-2598617f",
+            "thread_id":thread_id
+        }
+        response = requests.post(url, headers=headers, data=json.dumps(data))
+        # 打印响应
+        if response.status_code ==200:
+            results_json = response.json()
+            results = results_json.get('result',"")
+            # print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>results",results)
+    except Exception as e:
+        results = ""
+    content = {
+        "card": {
+            "elements": [],
+            "header": {
+                "title": {
+                    "content": "话题记录",
+                    "tag": "plain_text"
+                }
+            }
+        }
+    }
+    news_data0 = {"tag": "div",
+                      "text": {
+                          "content": results,
+                          "tag": "lark_md",
+                          }
+                      }
+    content["card"]["elements"] = [news_data0]
+    return content
 
 
 def sub_add(content,user_id):
@@ -573,6 +616,20 @@ def find_all_source(content):
 
 def push_lark(content):
     url = 'https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5'
+    params = {
+        "msg_type": "interactive",
+    }
+    headers = {
+        'Content-Type': 'application/json',
+    }
+    for key, values in content.items():
+        params[key] = values
+    response = requests.post(url, json=params, headers=headers)
+    logging.info(f"{response.status_code}:{response.json()}")
+
+
+def test_lark(content):
+    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
     params = {
         "msg_type": "interactive",
     }

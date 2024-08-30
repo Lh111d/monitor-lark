@@ -1,6 +1,7 @@
 import logging
 import json
 import random
+from threading import Thread
 from flask import Flask, request, jsonify
 import requests
 import time
@@ -40,7 +41,9 @@ def feishu_event():
 
         # Handle specific events
         if "information source" in names:
-            handle_message(text_content, user_id,thread_id)
+            thread = Thread(target=handle_message, args=(text_content,user_id,thread_id))
+            thread.start()
+            # handle_message(text_content, user_id,thread_id)
     except Exception as e:
         logging.info(f"Failed to extract content: {e}")
 

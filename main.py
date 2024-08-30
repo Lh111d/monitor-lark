@@ -629,7 +629,7 @@ def push_lark(content):
 
 
 def test_lark(content):
-    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f'
+    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/12b7d679-bc66-4ed8-b36a-2161333f64bd'
     params = {
         "msg_type": "interactive",
     }

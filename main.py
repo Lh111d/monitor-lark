@@ -138,7 +138,7 @@ def post_url(db_id, sql_query):
 def topic_log(thread_id):
   try:
     # 定义请求URL
-        url = "https://flow.service.agione.ai/api/flow/service/acab0702-0d96-4b8e-93c5-6643ab7ba39c"
+        url = "https://flow.service.agione.ai/api/flow/service/60329b93-66b3-49dc-80c5-f11dcc8dcbcd"
         headers = {
             "Content-Type": "application/json",
             "api-key": "fl-zhixingqidian2099"

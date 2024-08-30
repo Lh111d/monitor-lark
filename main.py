@@ -153,27 +153,27 @@ def topic_log(thread_id):
             results_json = response.json()
             results = results_json.get('result',"")
             # print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>results",results)
-    except Exception as e:
-        results = ""
-    content = {
-        "card": {
-            "elements": [],
-            "header": {
-                "title": {
-                    "content": "话题记录",
-                    "tag": "plain_text"
-                }
-            }
-        }
-    }
-    news_data0 = {"tag": "div",
-                      "text": {
-                          "content": results,
-                          "tag": "lark_md",
-                          }
-                      }
-    content["card"]["elements"] = [news_data0]
-    return content
+  except Exception as e:
+      results = ""
+  content = {
+      "card": {
+          "elements": [],
+          "header": {
+              "title": {
+                  "content": "话题记录",
+                  "tag": "plain_text"
+              }
+          }
+      }
+  }
+  news_data0 = {"tag": "div",
+                    "text": {
+                        "content": results,
+                        "tag": "lark_md",
+                        }
+                    }
+  content["card"]["elements"] = [news_data0]
+  return content
 
 
 def sub_add(content,user_id):

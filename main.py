@@ -620,7 +620,7 @@ def find_all_source(content):
 
 
 def push_lark(content):
-    url = 'https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5'
+    urls = ['https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5',['https://open.larksuite.com/open-apis/bot/v2/hook/eaa16517-4ef4-4065-aea1-0d65507f75ff']]
     params = {
         "msg_type": "interactive",
     }
@@ -629,8 +629,10 @@ def push_lark(content):
     }
     for key, values in content.items():
         params[key] = values
-    response = requests.post(url, json=params, headers=headers)
-    logging.info(f"{response.status_code}:{response.json()}")
+    for url in urls:
+        response = requests.post(url, json=params, headers=headers)
+        logging.info(f"{response.status_code}:{response.json()}")
+    return 0
 
 
 def test_lark(content):

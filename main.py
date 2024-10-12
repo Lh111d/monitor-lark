@@ -620,7 +620,7 @@ def find_all_source(content):
 
 
 def push_lark(content):
-    urls = ['https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5',['https://open.larksuite.com/open-apis/bot/v2/hook/eaa16517-4ef4-4065-aea1-0d65507f75ff']]
+    urls = ['https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5','https://open.larksuite.com/open-apis/bot/v2/hook/eaa16517-4ef4-4065-aea1-0d65507f75ff']
     params = {
         "msg_type": "interactive",
     }

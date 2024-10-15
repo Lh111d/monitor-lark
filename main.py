@@ -129,7 +129,7 @@ def schedule_task():
 # 启动 Flask 应用的函数
 def run_flask_app():
     logging.info("Flask应用正在运行...")
-    app.run(host="0.0.0.0", port=6239, debug=False)  # 将debug设为False以避免重启
+    app.run(host="0.0.0.0", port=6339, debug=False)  # 将debug设为False以避免重启
 
 # 启动调度任务的函数
 def run_scheduler():

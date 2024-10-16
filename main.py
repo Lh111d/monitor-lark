@@ -1,6 +1,5 @@
 import logging
 import json
-from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
 from lark_utils.subscription_news import sub_add, sub_information, change_sub_information
 from lark_utils.news_source import search_source,add_source,change_source,find_all_source
@@ -10,9 +9,6 @@ from lark_utils.push_news import push_news
 from topic.topic_log import topic_log
 from threading import Thread
 from flask import Flask, request, jsonify
-import requests
-import time
-import schedule
 import time
 import threading
 

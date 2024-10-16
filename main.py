@@ -1,5 +1,7 @@
 import logging
 import json
+from datetime import datetime, timedelta
+from apscheduler.schedulers.background import BackgroundScheduler
 from lark_utils.subscription_news import sub_add, sub_information, change_sub_information
 from lark_utils.news_source import search_source,add_source,change_source,find_all_source
 from lark_utils.push import push_lark, test_lark
@@ -10,7 +12,7 @@ from threading import Thread
 from flask import Flask, request, jsonify
 import requests
 import time
-import sched
+import schedule
 import time
 import threading
 
@@ -74,6 +76,7 @@ def handle_message(text_content, user_id, thread_id, chat_id):
         logging.info("添加信息源")
         result = add_source(content)
         push_lark(result, chat_id)
+
     elif '搜索-' in content:
         logging.info("搜索信息源")
         result = search_source(content)
@@ -120,31 +123,39 @@ def handle_message(text_content, user_id, thread_id, chat_id):
 
 
 
-
-scheduler = sched.scheduler(time.time, time.sleep)
-
 # 定义任务调度
-def schedule_task():
-    logging.info("开始执行任务")
-    push_news()  # 立即执行一次
-    scheduler.enter(3600, 1, schedule_task)  # 每隔1小时注册一次新的任务
+def start_scheduler():
+    scheduler = BackgroundScheduler()
+
+    # 每小时的第10分钟执行一次任务
+    scheduler.add_job(push_news, 'cron', minute=10)
+
+    # 启动调度器
+    scheduler.start()
+
+    push_news()
 
 # 启动 Flask 应用的函数
 def run_flask_app():
     logging.info("Flask应用正在运行...")
     app.run(host="0.0.0.0", port=6238, debug=False)  # 将debug设为False避免重复启动
 
-# 启动调度任务的函数
-def run_scheduler():
-    logging.info("开始定时任务")
-    scheduler.enter(0, 1, schedule_task)  # 立即启动任务
-    scheduler.run()  # 开始运行调度器
 
 # 多线程同时运行 Flask 和调度任务
 if __name__ == '__main__':
-    import threading
 
+    # 创建并启动 Flask 线程
     flask_thread = threading.Thread(target=run_flask_app)
-    flask_thread.start()  # 启动Flask应用
+    flask_thread.start()
 
-    run_scheduler()  # 在主线程启动定时任务
+    # 启动定时任务
+    start_scheduler()
+
+    # 捕捉退出事件，确保任务和线程正常退出
+    try:
+        # 让主线程保持运行，等待任务执行
+        while True:
+            time.sleep(60)
+    except (KeyboardInterrupt, SystemExit):
+        logging.info("程序正在退出...")
+        flask_thread.join()  # 等待 Flask 线程结束

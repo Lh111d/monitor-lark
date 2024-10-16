@@ -121,15 +121,18 @@ def handle_message(text_content, user_id, thread_id, chat_id):
 
 
 
+scheduler = sched.scheduler(time.time, time.sleep)
 
-
+# 定义任务调度
 def schedule_task():
-    scheduler.enter(3600, 1, push_news)  # 每隔1小时执行
-    scheduler.enter(3600, 1, schedule_task)  # 注册下一个任务
+    logging.info("开始执行任务")
+    push_news()  # 立即执行一次
+    scheduler.enter(3600, 1, schedule_task)  # 每隔1小时注册一次新的任务
+
 # 启动 Flask 应用的函数
 def run_flask_app():
     logging.info("Flask应用正在运行...")
-    app.run(host="0.0.0.0", port=6339, debug=False)  # 将debug设为False以避免重启
+    app.run(host="0.0.0.0", port=6238, debug=False)  # 将debug设为False避免重复启动
 
 # 启动调度任务的函数
 def run_scheduler():
@@ -137,11 +140,11 @@ def run_scheduler():
     scheduler.enter(0, 1, schedule_task)  # 立即启动任务
     scheduler.run()  # 开始运行调度器
 
+# 多线程同时运行 Flask 和调度任务
 if __name__ == '__main__':
-    # 创建并启动线程来运行调度器
-    scheduler = sched.scheduler(time.time, time.sleep)
-    scheduler_thread = threading.Thread(target=run_scheduler)
-    scheduler_thread.start()
+    import threading
 
-    # 在主线程运行 Flask 应用
-    run_flask_app()
+    flask_thread = threading.Thread(target=run_flask_app)
+    flask_thread.start()  # 启动Flask应用
+
+    run_scheduler()  # 在主线程启动定时任务

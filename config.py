@@ -1,6 +1,6 @@
 topic_uuid = "60329b93-66b3-49dc-80c5-f11dcc8dcbcd"
 max_retry = 3
-organization_name = "Questnx"
+organization_name = "Opencoord"
 db_api_key = 'mc-FgnKamL9MvsvLhK1PRyrzNJu8mg-r108p7_1ezq1PDjo-rMiN7eH3ofq-p6LDMBr'
 db_id = "76a6b495-0733-4a62-91c3-770bfd9c7643"
 

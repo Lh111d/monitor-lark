@@ -1151,3 +1151,5 @@ RuntimeError: cannot schedule new futures after interpreter shutdown
 2024-10-16 17:10:03,785 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
 2024-10-16 17:10:04,542 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
 2024-10-16 17:10:04,542 - apscheduler.executors.default - INFO - Job "push_news (trigger: cron[minute='10'], next run at: 2024-10-16 18:10:00 CST)" executed successfully
+2024-10-16 17:45:12,569 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 17:45:12] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-16 17:45:12,665 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 17:45:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

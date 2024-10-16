@@ -313,3 +313,801 @@
  * Running on http://127.0.0.1:6238
  * Running on http://198.18.0.1:6238
 2024-10-15 18:33:22,813 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:25:22,865 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:25:22,865 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:25:23,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:25:23,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:25:39,315 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:39] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:25:54,605 - werkzeug - ERROR - 192.168.1.12 - - [15/Oct/2024 19:25:54] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\xff\x01\x00\x01\x00\x00#\x00\x00\x00')
+2024-10-15 19:25:54,605 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:54] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06¨¹\x03\x03E\xeb\xa9b\xca\x93\x97\xc5\x9f\x85\xd3\xbe\x8f\x7f\xdf\xceJ\xaf\x9d\x02D\xd0{\x84\x0c\xeb\xda\xfd\x15\x9e\x8c\xc0 {k\xee\xab\x8f\xf1Ms¨´H\xfd\xf5\xe6\xb4&\xba\x1d\xcc\x14F<xY\x87\xbf¡è\xca¨¹\x96¨¹¨¢-\x00 \xca\xca\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc¡§\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\xff\x01\x00\x01\x00\x00#\x00\x00\x00[0m" 400 -
+2024-10-15 19:25:54,675 - werkzeug - ERROR - 192.168.1.12 - - [15/Oct/2024 19:25:54] code 400, message Bad request version ('\xb8\xa2LT\x03\xb9\x0f\x9b\xd2#%\x03\xa2¨¬\xd1\x08\xaa\xf01\x8bKul¡Â\xb2\xda\xc2+A\xf8\x90\x11Pm\xc1\x16C[\x90H\xb2q\x19¡Á2Sm$\x14¡ã')
+2024-10-15 19:25:54,675 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:54] "[31m[1m\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x03\x7fvb\xe3B\xb6\x8ak\xf6hJ1O\x98\xc4\x05\x16-?\xc7Rv\xcd\xb62\xc7`\xef5\xd1WL Jp\xeb5\xd4¨°¡Á7\x8bqZ\xda<\x8f\xe2\x83|'\x8f\xfe\x98\xdcl\xc7\xe5\xc72\x82¨º9\x9d\x0b\x00 \xda\xda\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc¡§\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\xaa\xaa\x00\x00\x003\x04\xef\x04¨ª¨º¨º\x00\x01\x00c\x99\x04\xc0\x8a*O\x90\x91(\xd9\xaeu\xd1<S\xb9E\x98A\x10\x92\xc6\xcb\x91PM\xb2\x0b\xcf\x90\x9b\x96\x8aci-\xf5]J\x91\x93\xe4\xc3\x8a4\x08x\xb6*\xbd1¡èA|\x9b=\xee\x81vd*u\xd3Z8\xfd\x994$)\xb6\xa9\x89\\>\xa9--R\x17jb\xa2\xca\x05(\xfb\x1a\x94\x12\x1c\xb4\xc2aFL\x1a}\xc1\x0c\x15q\x1c?H\xb6\xaeq6\x15¨¢\x09*\xae\xe24o\xf8J`PlN'k|\xb6\xb8w\x0bv\xfb¨¬\x11/\x1c%\xc9\x81%\x11\xfb\xce\x9e\x0b\xb8\xa2LT\x03\xb9\x0f\x9b\xd2#%\x03\xa2¨¬\xd1\x08\xaa\xf01\x8bKul¡Â\xb2\xda\xc2+A\xf8\x90\x11Pm\xc1\x16C[\x90H\xb2q\x19¡Á2Sm$\x14¡ã[0m" 400 -
+2024-10-15 19:25:54,745 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:54] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:25:54,824 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-15 19:25:59,922 - root - INFO - Received event: {"challenge": "7b5409e7-bf38-4c63-a98b-a8d8edd2e5af", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "type": "url_verification"}
+2024-10-15 19:25:59,922 - root - INFO - Failed to extract content: 'event'
+2024-10-15 19:25:59,922 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:25:59] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 19:28:05,609 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:28:05] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+
+
+
+
+
+2024-10-15 19:28:49,860 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:28:49,860 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:28:50,718 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:28:50,718 - werkzeug - INFO - [33mPress C    TRL+C to quit[0m
+2024-10-15 19:31:24,480 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:31:24] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:32:08,267 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:32:08] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-15 19:32:16,225 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:32:16] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:33:52,803 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:33:52,803 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:33:53,670 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:33:53,670 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:35:04,538 - root - INFO - Received event: {"challenge": "31ab7671-d989-4c67-b7d7-b5964be0b2f9", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "type": "url_verification"}
+2024-10-15 19:35:04,538 - root - INFO - Failed to extract content: 'event'
+2024-10-15 19:35:04,539 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:35:04] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 19:43:05,697 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:43:05,697 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:43:06,556 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:43:06,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:44:04,522 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:44:04] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:44:08,615 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:44:08] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:46:57,483 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:46:57,483 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:46:58,352 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:46:58,352 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:46:58,353 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 19:46:59,553 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:46:59,553 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:46:59,565 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 19:46:59,566 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 19:47:25,688 - werkzeug - INFO -  * Detected change in 'D:\\code\\monitor-lark\\config.py', reloading
+2024-10-15 19:48:01,333 - root - INFO - cli_a784963894b8d009
+2024-10-15 19:48:01,333 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 19:48:01,333 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 19:48:01,424 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:48:01,424 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:48:02,286 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:48:02,286 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:48:02,287 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 19:48:03,385 - root - INFO - cli_a784963894b8d009
+2024-10-15 19:48:03,385 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 19:48:03,385 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 19:48:03,470 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:48:03,471 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:48:03,482 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 19:48:03,483 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 19:48:40,782 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:48:40] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:35,411 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:35] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:38,423 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:38] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:39,572 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:39] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:40,075 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:40] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:40,432 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:40] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:50:40,647 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:50:40] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 19:51:37,659 - root - INFO - cli_a62a0213e5b89009
+2024-10-15 19:51:37,659 - root - INFO - 4K8JtkGsQ04hWP6Z6R6s6e7IxmzhMvvD
+2024-10-15 19:51:37,659 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5
+2024-10-15 19:51:37,748 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:51:37,748 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:51:38,612 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:51:38,612 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:51:38,612 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 19:51:39,668 - root - INFO - cli_a62a0213e5b89009
+2024-10-15 19:51:39,668 - root - INFO - 4K8JtkGsQ04hWP6Z6R6s6e7IxmzhMvvD
+2024-10-15 19:51:39,668 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5
+2024-10-15 19:51:39,754 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:51:39,754 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:51:39,767 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 19:51:39,768 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 19:51:56,023 - root - INFO - Received event: {"challenge": "0ed5b7ee-22d9-43c3-a073-4332d636692d", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "type": "url_verification"}
+2024-10-15 19:51:56,023 - root - INFO - Failed to extract content: 'event'
+2024-10-15 19:51:56,024 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:51:56] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 19:52:08,097 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "94c540196921c619a9b0ab0564eba71f", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "create_time": "1728993128141", "event_type": "im.message.receive_v1", "tenant_key": "10b78b4c92405759", "app_id": "cli_a62a0213e5b89009"}, "event": {"message": {"chat_id": "oc_6cdedd5017b6596e5d44116ca58bba67", "chat_type": "group", "content": "{\"text\":\"@_user_1 Ê¹ÓÃÖ¸ÄÏ\"}", "create_time": "1728993127996", "mentions": [{"id": {"open_id": "ou_702280833bdd558b33ca7369419e98af", "union_id": "on_0468cee1b821ce60ad8189631ee45cae", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "10b78b4c92405759"}], "message_id": "om_d0ab9057fe3c7777dd6561f3039cee36", "message_type": "text", "update_time": "1728993127996"}, "sender": {"sender_id": {"open_id": "ou_d8f9831d5b595021f83080feba7151ec", "union_id": "on_62c340c6d2b1799db94cba24aaae39f9", "user_id": "8ag5e1ba"}, "sender_type": "user", "tenant_key": "10b78b4c92405759"}}}
+2024-10-15 19:52:08,097 - root - INFO - Ê¹ÓÃÖ¸ÄÏ
+2024-10-15 19:52:08,097 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:52:08] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 19:52:11,067 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Ê¹ÓÃÖ¸ÄÏ","elements":[[{"tag":"text","text":"\u26be²é¿´ËùÓÐÐÅÏ¢Ô´ÇëÊäÈë£º(²é¿´ÐÅÏ¢Ô´)Îå¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´ÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´Æô¶¯µÄÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´¹Ø±ÕµÄÐÅÏ¢Ô´"}],[{"tag":"text","text":"\u26beËÑË÷ÐÅÏ¢Ô´ÇëÊäÈë£ºËÑË÷-ÄãÏëÒª²éÑ¯µÄÖÖÀà-Ïà¹ØÐÅÏ¢Ô´£¬½«¹Ø¼ü´ÊÓÃ-°üº¬¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã,ÎÄ»¯-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-name=Á¿×ÓÎ»-Ïà¹ØÐÅÏ¢Ô´"}],[{"tag":"text","text":"\u26beÌí¼ÓÐÅÏ¢Ô´ÇëÊäÈë£ºÌí¼ÓÐÅÏ¢Ô´-name-url-category-status£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"Ìí¼ÓÐÅÏ¢Ô´-name-url-category-status"}],[{"tag":"text","text":"\u26be¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)ÐÅÏ¢Ô´-name£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»"}],[{"tag":"text","text":"\u26be²é¿´¶©ÔÄÐÅÏ¢ÇëÊäÈë£º(²é¿´¶©ÔÄÄÚÈÝ)Áù¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´¶©ÔÄÄÚÈÝ"}],[{"tag":"text","text":"\u26beÌí¼Ó¶©ÔÄÐÅÏ¢ÇëÊäÈë£º¶©ÔÄ-¶©ÔÄÀàÐÍ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"¶©ÔÄ-web3,game-ÌáÈ¡ÓÎÏ·Íæ·¨£¬ÓÎÏ·ÁÁµã£¬¾çÇéÉè¼Æ£¬ÊÐ³¡µÈ"}],[{"tag":"text","text":"\u26be¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)¶©ÔÄÄÚÈÝ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ª¶©ÔÄÄÚÈÝ-ÐÂÎÅ"}]]}'}, 'chat_id': 'oc_6cdedd5017b6596e5d44116ca58bba67', 'create_time': '1728993131605', 'deleted': False, 'message_id': 'om_5e1a575d8a5b22868a7b88991babe801', 'msg_type': 'interactive', 'sender': {'id': 'cli_a62a0213e5b89009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '10b78b4c92405759'}, 'update_time': '1728993131605', 'updated': False}, 'msg': 'success'}
+2024-10-15 19:53:16,895 - root - INFO - cli_a784963894b8d009
+2024-10-15 19:53:16,895 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 19:53:16,895 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 19:53:16,988 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:53:16,988 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:53:17,840 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 19:53:17,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 19:53:17,840 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 19:53:18,914 - root - INFO - cli_a784963894b8d009
+2024-10-15 19:53:18,914 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 19:53:18,915 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 19:53:19,005 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 19:53:19,005 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 19:53:19,016 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 19:53:19,017 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 19:55:49,425 - root - INFO - Received event: {"challenge": "96e1dbdf-b53c-467d-97c3-d23d926be758", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "type": "url_verification"}
+2024-10-15 19:55:49,425 - root - INFO - Failed to extract content: 'event'
+2024-10-15 19:55:49,426 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 19:55:49] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:03:13,322 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:03:13] "[31m[1mGET /lark/event HTTP/1.1[0m" 405 -
+2024-10-15 20:07:27,522 - werkzeug - INFO -  * Detected change in 'D:\\code\\monitor-lark\\config.py', reloading
+2024-10-15 20:07:38,673 - root - INFO - cli_a62a0213e5b89009
+2024-10-15 20:07:38,673 - root - INFO - 4K8JtkGsQ04hWP6Z6R6s6e7IxmzhMvvD
+2024-10-15 20:07:38,673 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5
+2024-10-15 20:07:38,765 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:07:38,765 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:07:39,623 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:07:39,623 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:07:39,624 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:07:40,686 - root - INFO - cli_a62a0213e5b89009
+2024-10-15 20:07:40,686 - root - INFO - 4K8JtkGsQ04hWP6Z6R6s6e7IxmzhMvvD
+2024-10-15 20:07:40,686 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5
+2024-10-15 20:07:40,779 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:07:40,779 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:07:40,794 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:07:40,795 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:07:59,973 - root - INFO - Received event: {"challenge": "0655a875-b552-4eb5-8b57-78e4d124fd7c", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "type": "url_verification"}
+2024-10-15 20:07:59,973 - root - INFO - Failed to extract content: 'event'
+2024-10-15 20:07:59,973 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:07:59] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:08:18,226 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "cfff8d115b8490c01d163fa2036462e3", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "create_time": "1728994098308", "event_type": "im.message.receive_v1", "tenant_key": "10b78b4c92405759", "app_id": "cli_a62a0213e5b89009"}, "event": {"message": {"chat_id": "oc_6cdedd5017b6596e5d44116ca58bba67", "chat_type": "group", "content": "{\"text\":\"@_user_1 Ê¹ÓÃÖ¸ÄÏ\"}", "create_time": "1728994098072", "mentions": [{"id": {"open_id": "ou_702280833bdd558b33ca7369419e98af", "union_id": "on_0468cee1b821ce60ad8189631ee45cae", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "10b78b4c92405759"}], "message_id": "om_d09328af504b01737139f18b2cf0ac64", "message_type": "text", "update_time": "1728994098072"}, "sender": {"sender_id": {"open_id": "ou_d8f9831d5b595021f83080feba7151ec", "union_id": "on_62c340c6d2b1799db94cba24aaae39f9", "user_id": "8ag5e1ba"}, "sender_type": "user", "tenant_key": "10b78b4c92405759"}}}
+2024-10-15 20:08:18,227 - root - INFO - Ê¹ÓÃÖ¸ÄÏ
+2024-10-15 20:08:18,228 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:08:18] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:08:19,681 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Ê¹ÓÃÖ¸ÄÏ","elements":[[{"tag":"text","text":"\U0001f352²é¿´ËùÓÐÐÅÏ¢Ô´ÇëÊäÈë£º(²é¿´ÐÅÏ¢Ô´)Îå¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´ÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´Æô¶¯µÄÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´¹Ø±ÕµÄÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f352ËÑË÷ÐÅÏ¢Ô´ÇëÊäÈë£ºËÑË÷-ÄãÏëÒª²éÑ¯µÄÖÖÀà-Ïà¹ØÐÅÏ¢Ô´£¬½«¹Ø¼ü´ÊÓÃ-°üº¬¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã,ÎÄ»¯-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-name=Á¿×ÓÎ»-Ïà¹ØÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f352Ìí¼ÓÐÅÏ¢Ô´ÇëÊäÈë£ºÌí¼ÓÐÅÏ¢Ô´-name-url-category-status£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"Ìí¼ÓÐÅÏ¢Ô´-name-url-category-status"}],[{"tag":"text","text":"\U0001f352¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)ÐÅÏ¢Ô´-name£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f352²é¿´¶©ÔÄÐÅÏ¢ÇëÊäÈë£º(²é¿´¶©ÔÄÄÚÈÝ)Áù¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´¶©ÔÄÄÚÈÝ"}],[{"tag":"text","text":"\U0001f352Ìí¼Ó¶©ÔÄÐÅÏ¢ÇëÊäÈë£º¶©ÔÄ-¶©ÔÄÀàÐÍ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"¶©ÔÄ-web3,game-ÌáÈ¡ÓÎÏ·Íæ·¨£¬ÓÎÏ·ÁÁµã£¬¾çÇéÉè¼Æ£¬ÊÐ³¡µÈ"}],[{"tag":"text","text":"\U0001f352¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)¶©ÔÄÄÚÈÝ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ª¶©ÔÄÄÚÈÝ-ÐÂÎÅ"}]]}'}, 'chat_id': 'oc_6cdedd5017b6596e5d44116ca58bba67', 'create_time': '1728994100223', 'deleted': False, 'message_id': 'om_0f8306fd4683ca034fbd1e925481f9ca', 'msg_type': 'interactive', 'sender': {'id': 'cli_a62a0213e5b89009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '10b78b4c92405759'}, 'update_time': '1728994100223', 'updated': False}, 'msg': 'success'}
+2024-10-15 20:08:52,937 - root - INFO - Received event: {"challenge": "48ec9a74-3a62-4027-971c-c1952cd25a49", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "type": "url_verification"}
+2024-10-15 20:08:52,937 - root - INFO - Failed to extract content: 'event'
+2024-10-15 20:08:52,937 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:08:52] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:09:37,247 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "909e1d437a5cb23f2d47b5f8ad8399fb", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "create_time": "1728994177227", "event_type": "im.message.receive_v1", "tenant_key": "10b78b4c92405759", "app_id": "cli_a62a0213e5b89009"}, "event": {"message": {"chat_id": "oc_c4a723868d159e0dbdd9da9e6a9b8bef", "chat_type": "group", "content": "{\"text\":\"@_user_1 Ê¹ÓÃÖ¸ÄÏ\"}", "create_time": "1728994177082", "mentions": [{"id": {"open_id": "ou_702280833bdd558b33ca7369419e98af", "union_id": "on_0468cee1b821ce60ad8189631ee45cae", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "10b78b4c92405759"}], "message_id": "om_882526c5a212b0d013120171362b2d2d", "message_type": "text", "update_time": "1728994177082"}, "sender": {"sender_id": {"open_id": "ou_d8f9831d5b595021f83080feba7151ec", "union_id": "on_62c340c6d2b1799db94cba24aaae39f9", "user_id": "8ag5e1ba"}, "sender_type": "user", "tenant_key": "10b78b4c92405759"}}}
+2024-10-15 20:09:37,248 - root - INFO - Ê¹ÓÃÖ¸ÄÏ
+2024-10-15 20:09:37,250 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:09:37] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:09:39,165 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Ê¹ÓÃÖ¸ÄÏ","elements":[[{"tag":"text","text":"\U0001f355²é¿´ËùÓÐÐÅÏ¢Ô´ÇëÊäÈë£º(²é¿´ÐÅÏ¢Ô´)Îå¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´ÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´Æô¶¯µÄÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´¹Ø±ÕµÄÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f355ËÑË÷ÐÅÏ¢Ô´ÇëÊäÈë£ºËÑË÷-ÄãÏëÒª²éÑ¯µÄÖÖÀà-Ïà¹ØÐÅÏ¢Ô´£¬½«¹Ø¼ü´ÊÓÃ-°üº¬¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã,ÎÄ»¯-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-name=Á¿×ÓÎ»-Ïà¹ØÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f355Ìí¼ÓÐÅÏ¢Ô´ÇëÊäÈë£ºÌí¼ÓÐÅÏ¢Ô´-name-url-category-status£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"Ìí¼ÓÐÅÏ¢Ô´-name-url-category-status"}],[{"tag":"text","text":"\U0001f355¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)ÐÅÏ¢Ô´-name£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f355²é¿´¶©ÔÄÐÅÏ¢ÇëÊäÈë£º(²é¿´¶©ÔÄÄÚÈÝ)Áù¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´¶©ÔÄÄÚÈÝ"}],[{"tag":"text","text":"\U0001f355Ìí¼Ó¶©ÔÄÐÅÏ¢ÇëÊäÈë£º¶©ÔÄ-¶©ÔÄÀàÐÍ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"¶©ÔÄ-web3,game-ÌáÈ¡ÓÎÏ·Íæ·¨£¬ÓÎÏ·ÁÁµã£¬¾çÇéÉè¼Æ£¬ÊÐ³¡µÈ"}],[{"tag":"text","text":"\U0001f355¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)¶©ÔÄÄÚÈÝ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ª¶©ÔÄÄÚÈÝ-ÐÂÎÅ"}]]}'}, 'chat_id': 'oc_c4a723868d159e0dbdd9da9e6a9b8bef', 'create_time': '1728994179471', 'deleted': False, 'message_id': 'om_f92f626cb736b432c8d2942e6dd4619a', 'msg_type': 'interactive', 'sender': {'id': 'cli_a62a0213e5b89009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '10b78b4c92405759'}, 'update_time': '1728994179471', 'updated': False}, 'msg': 'success'}
+2024-10-15 20:11:56,382 - werkzeug - INFO -  * Detected change in 'D:\\code\\monitor-lark\\config.py', reloading
+2024-10-15 20:12:14,085 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:12:14,085 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:12:14,085 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:12:14,170 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:12:14,170 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:12:15,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:12:15,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:12:15,034 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:12:16,165 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:12:16,165 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:12:16,165 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:12:16,253 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:12:16,253 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:12:16,265 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:12:16,266 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:12:22,644 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "0e8f537bcc4f9be04481719c6533a148", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1728994342621", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 Ê¹ÓÃÖ¸ÄÏ\"}", "create_time": "1728994342366", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_ddd8b7d2ee70bb505eb27b2e9d3532b6", "message_type": "text", "update_time": "1728994342366"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-15 20:12:22,645 - root - INFO - Ê¹ÓÃÖ¸ÄÏ
+2024-10-15 20:12:22,646 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:12:22] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:12:24,631 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Ê¹ÓÃÖ¸ÄÏ","elements":[[{"tag":"text","text":"\U0001f3b2²é¿´ËùÓÐÐÅÏ¢Ô´ÇëÊäÈë£º(²é¿´ÐÅÏ¢Ô´)Îå¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´ÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´Æô¶¯µÄÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´¹Ø±ÕµÄÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f3b2ËÑË÷ÐÅÏ¢Ô´ÇëÊäÈë£ºËÑË÷-ÄãÏëÒª²éÑ¯µÄÖÖÀà-Ïà¹ØÐÅÏ¢Ô´£¬½«¹Ø¼ü´ÊÓÃ-°üº¬¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã,ÎÄ»¯-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-name=Á¿×ÓÎ»-Ïà¹ØÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f3b2Ìí¼ÓÐÅÏ¢Ô´ÇëÊäÈë£ºÌí¼ÓÐÅÏ¢Ô´-name-url-category-status£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"Ìí¼ÓÐÅÏ¢Ô´-name-url-category-status"}],[{"tag":"text","text":"\U0001f3b2¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)ÐÅÏ¢Ô´-name£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f3b2²é¿´¶©ÔÄÐÅÏ¢ÇëÊäÈë£º(²é¿´¶©ÔÄÄÚÈÝ)Áù¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´¶©ÔÄÄÚÈÝ"}],[{"tag":"text","text":"\U0001f3b2Ìí¼Ó¶©ÔÄÐÅÏ¢ÇëÊäÈë£º¶©ÔÄ-¶©ÔÄÀàÐÍ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"¶©ÔÄ-web3,game-ÌáÈ¡ÓÎÏ·Íæ·¨£¬ÓÎÏ·ÁÁµã£¬¾çÇéÉè¼Æ£¬ÊÐ³¡µÈ"}],[{"tag":"text","text":"\U0001f3b2¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)¶©ÔÄÄÚÈÝ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ª¶©ÔÄÄÚÈÝ-ÐÂÎÅ"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1728994345176', 'deleted': False, 'message_id': 'om_0db7292997273441e676195919988497', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1728994345176', 'updated': False}, 'msg': 'success'}
+2024-10-15 20:12:43,214 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "7a3c15d3c5b195ba08500b07d24db06b", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1728994363218", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 ²é¿´Æô¶¯µÄÐÅÏ¢Ô´\"}", "create_time": "1728994363034", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_7d65a299079c4da5e40d24c6b0ee5841", "message_type": "text", "update_time": "1728994363034"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-15 20:12:43,215 - root - INFO - ²é¿´Æô¶¯µÄÐÅÏ¢Ô´
+2024-10-15 20:12:43,216 - werkzeug - INFO - 192.168.1.12 - - [15/Oct/2024 20:12:43] "POST /lark/event HTTP/1.1" 200 -
+2024-10-15 20:12:45,636 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f383ÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f436¼ò½é:ÈË¹¤ÖÇÄÜ,»úÆ÷ÈË,¿ªÔ´,»úÆ÷Ñ§Ï°,Éî¶ÈÑ§Ï°,×Ô¶¯¼ÝÊ»,GAN,ÔÆ¼ÆËã,´óÊý¾Ý,Ð¾Æ¬,¼ÆËã»úÊÓ¾õ,×ÔÈ»ÓïÑÔ´¦Àí,NLP,ÖªÊ¶Í¼Æ×\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://www.qbitai.com","text":"https://www.qbitai.com"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"Techcrunch"}],[{"tag":"text","text":"\U0001f436¼ò½é:startup\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://techcrunch.com/","text":"https://techcrunch.com/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"HuggingFacePaper"}],[{"tag":"text","text":"\U0001f436¼ò½é:Tech\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://huggingface.co/papers","text":"https://huggingface.co/papers"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1728994366186', 'deleted': False, 'message_id': 'om_8d01b597f5775934931a1025ef4ef85b', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1728994366186', 'updated': False}, 'msg': 'success'}
+2024-10-15 20:12:47,101 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f383ÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"xiaohuAI"}],[{"tag":"text","text":"\U0001f436¼ò½é:ÈË¹¤ÖÇÄÜ\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://xiaohu.ai/","text":"https://xiaohu.ai/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"´óÄ£ÐÍÈÕ±¨"}],[{"tag":"text","text":"\U0001f436¼ò½é:ÈË¹¤ÖÇÄÜ\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://news.miracleplus.com/feeds","text":"https://news.miracleplus.com/feeds"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"CointelegraphWeb3"}],[{"tag":"text","text":"\U0001f436¼ò½é:web3\\n\U0001f433Á´½Ó:"},{"tag":"a","href":"https://cn.cointelegraph.com/tags/web3","text":"https://cn.cointelegraph.com/tags/web3"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1728994367650', 'deleted': False, 'message_id': 'om_246f2944472177521c014807dd110b7d', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1728994367650', 'updated': False}, 'msg': 'success'}
+2024-10-15 20:21:44,695 - werkzeug - INFO -  * Detected change in 'D:\\code\\monitor-lark\\main.py', reloading
+2024-10-15 20:21:54,528 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:21:54,528 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:21:54,528 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:21:54,621 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:21:54,621 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:21:55,482 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:21:55,483 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:21:55,483 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:21:56,548 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:21:56,548 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:21:56,548 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:21:56,636 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:21:56,636 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:21:56,648 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:21:56,649 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:22:50,995 - werkzeug - INFO -  * Detected change in 'D:\\code\\monitor-lark\\lark_utils\\push_news.py', reloading
+2024-10-15 20:22:57,408 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:22:57,408 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:22:57,408 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:22:57,501 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:22:57,501 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:22:58,360 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:22:58,360 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:22:58,361 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:22:59,519 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:22:59,520 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:22:59,520 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:22:59,610 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:22:59,610 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:22:59,622 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:22:59,624 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:23:10,924 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:11,676 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:12,462 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:12,830 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:13,255 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:13,530 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:14,224 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:14,323 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:15,130 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:15,183 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:15,996 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:16,004 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:16,826 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:16,912 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:17,675 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:18,091 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:18,454 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:18,884 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:23:19,374 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:06,616 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:30:06,616 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:30:06,616 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:30:06,703 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:30:06,703 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:30:07,568 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:30:07,568 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:30:07,569 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:30:08,736 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:30:08,736 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:30:08,736 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:30:08,825 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:30:08,825 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:30:08,836 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:30:08,837 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:30:19,919 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:20,776 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:21,524 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:22,329 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:22,380 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:23,114 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:23,172 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:23,900 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:24,039 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:24,709 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:24,848 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:25,617 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:25,911 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:26,380 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:26,762 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:27,218 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:27,591 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:27,940 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:28,453 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:28,704 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:29,303 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:29,508 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:30,320 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:30:31,429 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:32:56,858 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:32:56,858 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:32:56,858 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:32:56,961 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:32:56,962 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:32:57,841 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:32:57,841 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:32:57,843 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:32:59,048 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:32:59,049 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:32:59,050 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:32:59,138 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:32:59,138 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:32:59,150 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:32:59,151 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:33:11,006 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:11,801 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:12,440 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:12,558 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:13,226 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:13,360 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:14,096 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:14,140 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:14,882 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:14,936 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:15,767 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:16,384 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:16,616 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:17,101 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:17,915 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:18,452 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:18,713 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:19,209 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:19,476 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:19,988 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:20,220 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:20,754 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:21,022 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:33:22,161 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:34:11,583 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:34:11,583 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:34:11,583 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:34:11,669 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:34:11,669 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:34:12,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:34:12,534 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:34:12,535 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:34:13,713 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:34:13,713 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:34:13,713 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:34:13,803 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:34:13,804 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:34:13,816 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:34:13,817 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:35:05,989 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:35:05,989 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:35:05,989 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:35:06,074 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:35:06,074 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:35:06,944 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:35:06,944 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:35:06,945 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:35:08,163 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:35:08,163 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:35:08,163 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:35:08,244 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:35:08,244 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:35:08,256 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:35:08,257 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:35:19,408 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:20,240 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:21,448 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:21,664 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:22,253 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:22,484 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:23,241 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:23,617 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:24,403 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:24,456 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:25,241 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:25,273 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:26,073 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:26,104 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:26,926 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:26,932 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:27,870 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:27,981 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:28,662 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:28,804 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:29,422 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:29,568 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:30,185 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:31,181 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:43,346 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:44,103 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:44,604 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:44,867 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:45,409 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:45,658 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:46,159 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:46,478 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:46,944 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:47,233 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:47,721 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:48,007 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:48,479 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:48,787 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:49,219 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:49,610 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:50,033 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:50,703 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:50,806 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:51,475 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:51,595 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:52,422 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:52,438 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:35:53,205 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:33,047 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:36:33,048 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:36:33,048 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:36:33,135 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:36:33,135 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:36:34,003 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:36:34,003 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:36:34,004 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:36:35,174 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:36:35,174 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:36:35,174 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:36:35,260 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:36:35,260 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:36:35,272 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:36:35,273 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:36:46,509 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:47,279 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:48,095 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:48,624 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:48,920 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:49,394 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:49,677 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:50,159 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:50,451 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:50,969 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:51,216 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:51,995 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:52,281 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:52,761 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:53,062 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:53,536 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:53,808 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:54,369 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:54,601 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:55,164 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:55,848 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:55,969 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:56,870 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:36:58,163 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:37:36,685 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:37:36,685 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:37:36,685 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:37:36,785 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:37:36,785 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:37:37,655 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:37:37,655 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:37:37,656 - werkzeug - INFO -  * Restarting with stat
+2024-10-15 20:37:38,839 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:37:38,839 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:37:38,839 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:37:38,938 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:37:38,938 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:37:38,951 - werkzeug - WARNING -  * Debugger is active!
+2024-10-15 20:37:38,952 - werkzeug - INFO -  * Debugger PIN: 299-947-472
+2024-10-15 20:39:07,638 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:39:07,638 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:39:07,638 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:39:07,735 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:39:07,735 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:39:07,735 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 20:39:08,594 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:39:08,594 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:39:11,180 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:11,967 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:12,847 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:13,598 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:14,360 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:15,150 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:15,919 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:16,970 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:17,922 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:18,712 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:19,489 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:20,255 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:38,623 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:39:38,623 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:39:38,623 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:39:38,715 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:39:38,715 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:39:38,715 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 20:39:39,578 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:39:39,578 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:39:42,134 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:43,333 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:44,137 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:44,939 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:46,089 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:46,847 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:47,952 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:48,718 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:49,547 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:50,340 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:51,342 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:39:52,101 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:02,103 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 20:40:05,428 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:06,209 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:06,978 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:08,453 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:09,224 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:10,453 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:11,205 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:17,973 - root - INFO - cli_a784963894b8d009
+2024-10-15 20:40:17,973 - root - INFO - Mg3V52a4nw3pan4xx4nzhdErRZlqVuiD
+2024-10-15 20:40:17,973 - root - INFO - https://open.larksuite.com/open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647
+2024-10-15 20:40:18,058 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-15 20:40:18,058 - root - INFO - ¿ªÊ¼¶¨Ê±ÈÎÎñ
+2024-10-15 20:40:18,058 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 20:40:18,928 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-15 20:40:18,928 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 20:40:21,320 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:22,231 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:22,968 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:23,749 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:24,539 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:25,620 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:26,405 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:27,197 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:27,961 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:28,761 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:29,805 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 20:40:30,584 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-15 21:40:30,588 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 22:40:32,647 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-15 23:40:34,762 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 00:40:36,602 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 01:40:38,332 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 02:40:40,091 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 03:40:41,833 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 04:40:43,966 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 05:40:45,711 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 05:56:55,966 - werkzeug - ERROR - 192.168.1.12 - - [16/Oct/2024 05:56:55] code 400, message Bad request syntax ('MGLNDD_124.223.177.10_8022')
+2024-10-16 05:56:55,966 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 05:56:55] "[31m[1mMGLNDD_124.223.177.10_8022[0m" 400 -
+2024-10-16 06:40:47,440 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 07:40:49,332 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 08:40:51,144 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 09:34:31,624 - werkzeug - ERROR - 192.168.1.12 - - [16/Oct/2024 09:34:31] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+2024-10-16 09:34:31,624 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 09:34:31] "[31m[1mSSH-2.0-OpenSSH[0m" 400 -
+2024-10-16 09:40:53,084 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 10:40:55,397 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 11:40:57,412 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 12:40:59,495 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 13:41:01,377 - root - INFO - ¿ªÊ¼Ö´ÐÐÈÎÎñ
+2024-10-16 14:11:23,455 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 14:11:23,460 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 14:11:23,462 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 14:11:23,462 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 14:11:24,338 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 14:11:24,338 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:11:00,009 - apscheduler.scheduler - ERROR - Error submitting job "push_news (trigger: cron[minute='11'], next run at: 2024-10-16 15:11:00 CST)" to executor "default"
+Traceback (most recent call last):
+  File "C:\Users\LH\.conda\envs\info_summary\Lib\site-packages\apscheduler\schedulers\base.py", line 988, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "C:\Users\LH\.conda\envs\info_summary\Lib\site-packages\apscheduler\executors\base.py", line 71, in submit_job
+    self._do_submit_job(job, run_times)
+  File "C:\Users\LH\.conda\envs\info_summary\Lib\site-packages\apscheduler\executors\pool.py", line 28, in _do_submit_job
+    f = self._pool.submit(run_job, job, job._jobstore_alias, run_times, self._logger.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LH\.conda\envs\info_summary\Lib\concurrent\futures\thread.py", line 172, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+2024-10-16 15:22:02,899 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:22:02,904 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:22:02,905 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:22:02,905 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:22:03,758 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:22:03,758 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:23:04,270 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:23:04,274 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:23:04,275 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:23:04,275 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:23:05,122 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:23:05,122 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:36:40,730 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:36:40,733 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:36:40,735 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:36:40,735 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:36:41,577 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:36:41,577 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:38:08,097 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:38:08,101 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:38:08,102 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:38:08,102 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:38:08,945 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:38:08,946 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:38:39,629 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:38:39,633 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:38:39,634 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:38:39,634 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:38:40,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:38:40,474 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:45:44,610 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:45:44,614 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:45:44,615 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:45:44,615 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:45:45,456 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:45:45,456 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:45:47,737 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:48,494 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:49,512 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:50,287 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:51,001 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:51,767 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:52,568 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:53,375 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:54,139 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:54,870 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:55,589 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:45:56,389 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:48:55,010 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:48:55,012 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:48:55,012 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:48:55,012 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:48:55,861 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:48:55,861 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:48:58,133 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:48:58,898 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:48:59,658 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:00,392 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:01,162 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:01,908 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:03,122 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:04,332 - root - INFO - HTTPSConnectionPool(host='open.larksuite.com', port=443): Max retries exceeded with url: /open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+2024-10-16 15:49:05,275 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:06,068 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:07,274 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:08,529 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:25,017 - apscheduler.executors.default - INFO - Running job "push_news (trigger: interval[0:00:30], next run at: 2024-10-16 15:49:25 CST)" (scheduled at 2024-10-16 15:49:25.012271+08:00)
+2024-10-16 15:49:28,214 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:28,942 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:29,705 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:30,491 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:30,995 - root - INFO - ³ÌÐòÕýÔÚÍË³ö...
+2024-10-16 15:49:31,258 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 15:49:33,167 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:49:33,169 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:49:33,169 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:49:33,169 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:49:34,013 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:49:34,013 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:50:03,175 - apscheduler.executors.default - INFO - Running job "push_news (trigger: interval[0:00:30], next run at: 2024-10-16 15:50:03 CST)" (scheduled at 2024-10-16 15:50:03.169001+08:00)
+2024-10-16 15:50:04,995 - apscheduler.executors.default - INFO - Job "push_news (trigger: interval[0:00:30], next run at: 2024-10-16 15:50:33 CST)" executed successfully
+2024-10-16 15:50:07,424 - root - INFO - ³ÌÐòÕýÔÚÍË³ö...
+2024-10-16 15:50:10,683 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 15:50:10,688 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 15:50:10,689 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 15:50:10,689 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 15:50:11,531 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 15:50:11,531 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 15:55:00,124 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "8ae9d67fd5ee4e499a6e91b6eb3cc2ea", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "create_time": "1729065300583", "event_type": "im.message.receive_v1", "tenant_key": "10b78b4c92405759", "app_id": "cli_a62a0213e5b89009"}, "event": {"message": {"chat_id": "oc_520ea53e595a7fff81f98027ae6360fc", "chat_type": "group", "content": "{\"text\":\"https://open.larksuite.com/open-apis/bot/v2/hook/8cda7ae5-3ae6-48e5-b741-44f6b21c6e0f\"}", "create_time": "1729065300247", "message_id": "om_ee9d61fc75a26fe3d680608076ba45d8", "message_type": "text", "update_time": "1729065300247"}, "sender": {"sender_id": {"open_id": "ou_d8f9831d5b595021f83080feba7151ec", "union_id": "on_62c340c6d2b1799db94cba24aaae39f9", "user_id": "8ag5e1ba"}, "sender_type": "user", "tenant_key": "10b78b4c92405759"}}}
+2024-10-16 15:55:00,126 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 15:55:00] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 15:55:04,746 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "33992cfc264d628d156651270065526f", "token": "0hKusyPIWuR3DfJYfLD2igUMA5myn6Rg", "create_time": "1729065304691", "event_type": "im.message.receive_v1", "tenant_key": "10b78b4c92405759", "app_id": "cli_a62a0213e5b89009"}, "event": {"message": {"chat_id": "oc_520ea53e595a7fff81f98027ae6360fc", "chat_type": "group", "content": "{\"text\":\"https://open.larksuite.com/open-apis/bot/v2/hook/c3ba0601-f8f6-4e5c-9de9-d578380772c5\"}", "create_time": "1729065304391", "message_id": "om_a31731aa8fa5ebe6a28f2ab80ae14940", "message_type": "text", "update_time": "1729065304391"}, "sender": {"sender_id": {"open_id": "ou_d8f9831d5b595021f83080feba7151ec", "union_id": "on_62c340c6d2b1799db94cba24aaae39f9", "user_id": "8ag5e1ba"}, "sender_type": "user", "tenant_key": "10b78b4c92405759"}}}
+2024-10-16 15:55:04,746 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 15:55:04] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:10:00,007 - apscheduler.executors.default - INFO - Running job "push_news (trigger: cron[minute='10'], next run at: 2024-10-16 16:10:00 CST)" (scheduled at 2024-10-16 16:10:00+08:00)
+2024-10-16 16:10:01,721 - apscheduler.executors.default - INFO - Job "push_news (trigger: cron[minute='10'], next run at: 2024-10-16 17:10:00 CST)" executed successfully
+2024-10-16 16:12:35,390 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "defee62a7c2749286c8ee33b38ba20ea", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729066355998", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 Ê¹ÓÃÖ¸ÄÏ\"}", "create_time": "1729066355737", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_f4025bd7c7d9eb721447b9949deacbeb", "message_type": "text", "update_time": "1729066355737"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:12:35,390 - root - INFO - Ê¹ÓÃÖ¸ÄÏ
+2024-10-16 16:12:35,391 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:12:35] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:12:37,017 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Ê¹ÓÃÖ¸ÄÏ","elements":[[{"tag":"text","text":"\U0001f351²é¿´ËùÓÐÐÅÏ¢Ô´ÇëÊäÈë£º(²é¿´ÐÅÏ¢Ô´)Îå¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´ÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´Æô¶¯µÄÐÅÏ¢Ô´"},{"tag":"text","text":","},{"tag":"text","text":"²é¿´¹Ø±ÕµÄÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f351ËÑË÷ÐÅÏ¢Ô´ÇëÊäÈë£ºËÑË÷-ÄãÏëÒª²éÑ¯µÄÖÖÀà-Ïà¹ØÐÅÏ¢Ô´£¬½«¹Ø¼ü´ÊÓÃ-°üº¬¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã-Ïà¹ØÐÅÏ¢Ô´"},{"tag":"text","text":"\\nÀýÈç:"},{"tag":"text","text":"ËÑË÷-¾­¼Ã,ÎÄ»¯-Ïà¹ØÐÅÏ¢Ô´"}],[{"tag":"text","text":"\U0001f351Ìí¼ÓÐÅÏ¢Ô´ÇëÊäÈë£ºÌí¼ÓÐÅÏ¢Ô´-name-url-category-status£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"Ìí¼ÓÐÅÏ¢Ô´-name-url-category-status"}],[{"tag":"text","text":"\U0001f351¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)ÐÅÏ¢Ô´-name£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f351²é¿´¶©ÔÄÐÅÏ¢ÇëÊäÈë£º(²é¿´¶©ÔÄÄÚÈÝ)Áù¸ö¹Ø¼ü×Ö¼´¿É²é¿´.\\nÀýÈç:"},{"tag":"text","text":"²é¿´¶©ÔÄÄÚÈÝ"}],[{"tag":"text","text":"\U0001f351Ìí¼Ó¶©ÔÄÐÅÏ¢ÇëÊäÈë£º¶©ÔÄ-¶©ÔÄÀàÐÍ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"¶©ÔÄ-web3,game-ÌáÈ¡ÓÎÏ·Íæ·¨£¬ÓÎÏ·ÁÁµã£¬¾çÇéÉè¼Æ£¬ÊÐ³¡µÈ"}],[{"tag":"text","text":"\U0001f351¸Ä±äÐÅÏ¢Ô´×´Ì¬ÇëÊäÈë£º¹Ø±Õ(´ò¿ª)¶©ÔÄÄÚÈÝ-¶©ÔÄÄÚÈÝ£¬ÊäÈë¹Ø¼ü´ÊÇ°ÓÃ-¿ªÍ·¼´¿É.\\nÀýÈç:"},{"tag":"text","text":"´ò¿ª¶©ÔÄÄÚÈÝ-ÐÂÎÅ"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066358086', 'deleted': False, 'message_id': 'om_a227c22356594b269f563efea2276cfc', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066358086', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:12:56,631 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "2a268728a3e6e916b53685134ab99202", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729066377264", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 ²é¿´ÐÅÏ¢Ô´\"}", "create_time": "1729066377071", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_bd285f44ca5ec2cef1c97917fbce143c", "message_type": "text", "update_time": "1729066377071"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:12:56,632 - root - INFO - ²é¿´ÐÅÏ¢Ô´
+2024-10-16 16:12:56,632 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:12:56] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:12:59,003 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f3c9ÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f34b"},{"tag":"text","text":"Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f3f8¼ò½é:ÈË¹¤ÖÇÄÜ,»úÆ÷ÈË,¿ªÔ´,»úÆ÷Ñ§Ï°,Éî¶ÈÑ§Ï°,×Ô¶¯¼ÝÊ»,GAN,ÔÆ¼ÆËã,´óÊý¾Ý,Ð¾Æ¬,¼ÆËã»úÊÓ¾õ,×ÔÈ»ÓïÑÔ´¦Àí,NLP,ÖªÊ¶Í¼Æ×\\n\U0001f354Á´½Ó:"},{"tag":"a","href":"https://www.qbitai.com","text":"https://www.qbitai.com"}],[{"tag":"button","text":"×´Ì¬ :¹Ø±Õ","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f34b"},{"tag":"text","text":"Techcrunch"}],[{"tag":"text","text":"\U0001f3f8¼ò½é:startup\\n\U0001f354Á´½Ó:"},{"tag":"a","href":"https://techcrunch.com/","text":"https://techcrunch.com/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f34b"},{"tag":"text","text":"HuggingFacePaper"}],[{"tag":"text","text":"\U0001f3f8¼ò½é:Tech\\n\U0001f354Á´½Ó:"},{"tag":"a","href":"https://huggingface.co/papers","text":"https://huggingface.co/papers"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066380123', 'deleted': False, 'message_id': 'om_745cfc2ee82b774412d965f831fa0ef5', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066380123', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:13:38,908 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "ed5c6ed5e17f6fe0d51ca475db6110b4", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729066419503", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 ²é¿´Æô¶¯µÄÐÅÏ¢Ô´\"}", "create_time": "1729066419248", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_24bec624f6cf70f6a48accb55fac1419", "message_type": "text", "update_time": "1729066419248"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:13:38,908 - root - INFO - ²é¿´Æô¶¯µÄÐÅÏ¢Ô´
+2024-10-16 16:13:38,910 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:13:38] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:13:41,257 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\u26beÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f967"},{"tag":"text","text":"Techcrunch"}],[{"tag":"text","text":"\U0001f345¼ò½é:startup\\n\U0001f364Á´½Ó:"},{"tag":"a","href":"https://techcrunch.com/","text":"https://techcrunch.com/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066422381', 'deleted': False, 'message_id': 'om_25b6bab0f7384a831c54cf88a6873a25', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066422381', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:13:42,715 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\u26beÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f967"},{"tag":"text","text":"HuggingFacePaper"}],[{"tag":"text","text":"\U0001f345¼ò½é:Tech\\n\U0001f364Á´½Ó:"},{"tag":"a","href":"https://huggingface.co/papers","text":"https://huggingface.co/papers"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f967"},{"tag":"text","text":"xiaohuAI"}],[{"tag":"text","text":"\U0001f345¼ò½é:AI\\n\U0001f364Á´½Ó:"},{"tag":"a","href":"https://xiaohu.ai/","text":"https://xiaohu.ai/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066423825', 'deleted': False, 'message_id': 'om_f954091c34edfca7fee31ea1d8c2ab26', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066423825', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:21:02,735 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "9c5269d1ddbb2ee76cac41b3f97545bd", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729066863315", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 ²é¿´ÐÅÏ¢Ô´\"}", "create_time": "1729066863103", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_d79498ed9a6fdab7dca54c7811e7e509", "message_type": "text", "update_time": "1729066863103"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:21:02,736 - root - INFO - ²é¿´ÐÅÏ¢Ô´
+2024-10-16 16:21:02,736 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:21:02] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:21:05,067 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f36dÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"Á¿×ÓÎ»"}],[{"tag":"text","text":"\U0001f99a¼ò½é:ÈË¹¤ÖÇÄÜ,»úÆ÷ÈË,¿ªÔ´,»úÆ÷Ñ§Ï°,Éî¶ÈÑ§Ï°,×Ô¶¯¼ÝÊ»,GAN,ÔÆ¼ÆËã,´óÊý¾Ý,Ð¾Æ¬,¼ÆËã»úÊÓ¾õ,×ÔÈ»ÓïÑÔ´¦Àí,NLP,ÖªÊ¶Í¼Æ×\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://www.qbitai.com","text":"https://www.qbitai.com"}],[{"tag":"button","text":"×´Ì¬ :¹Ø±Õ","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"Techcrunch"}],[{"tag":"text","text":"\U0001f99a¼ò½é:startup\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://techcrunch.com/","text":"https://techcrunch.com/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"HuggingFacePaper"}],[{"tag":"text","text":"\U0001f99a¼ò½é:Tech\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://huggingface.co/papers","text":"https://huggingface.co/papers"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066866179', 'deleted': False, 'message_id': 'om_564b9316cdab41c1eac68945ab4e9515', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066866179', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:21:06,563 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f36dÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"xiaohuAI"}],[{"tag":"text","text":"\U0001f99a¼ò½é:AI\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://xiaohu.ai/","text":"https://xiaohu.ai/"}],[{"tag":"button","text":"×´Ì¬ :Æô¶¯","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"´óÄ£ÐÍÈÕ±¨"}],[{"tag":"text","text":"\U0001f99a¼ò½é:AI\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://news.miracleplus.com/feeds","text":"https://news.miracleplus.com/feeds"}],[{"tag":"button","text":"×´Ì¬ :¹Ø±Õ","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f37c"},{"tag":"text","text":"CointelegraphWeb3"}],[{"tag":"text","text":"\U0001f99a¼ò½é:web3\\n\U0001f350Á´½Ó:"},{"tag":"a","href":"https://cn.cointelegraph.com/tags/web3","text":"https://cn.cointelegraph.com/tags/web3"}],[{"tag":"button","text":"×´Ì¬ :¹Ø±Õ","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066867660', 'deleted': False, 'message_id': 'om_2e999c4edef7de24ad9166514452de2b', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066867660', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:21:41,529 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "f84f735af9325750f66b21b2cda9dc95", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729066902125", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729066901840", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_4bf5e6926d1f96bed94498f27b3a2c25", "message_type": "text", "update_time": "1729066901840"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:21:41,530 - root - INFO - ´ò¿ªÐÅÏ¢Ô´
+2024-10-16 16:21:41,531 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:21:41] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:21:43,414 - root - INFO - 500,{'detail': 'Internal server error'}
+2024-10-16 16:21:44,860 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"ÇëÇóÊ§°Ü","elements":[]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729066905974', 'deleted': False, 'message_id': 'om_9c89bc148027a4a77b45099753eb6ffa', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729066905974', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:22:50,389 - root - INFO - ³ÌÐòÕýÔÚÍË³ö...
+2024-10-16 16:22:53,359 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 16:22:53,363 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 16:22:53,365 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 16:22:53,365 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 16:22:54,210 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 16:22:54,210 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:22:55,995 - root - INFO - push_news, 200, {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2024-10-16 16:23:20,715 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "2742f33ba660b72c02406c54cf4d32b5", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067001303", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729067001082", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_0fa13f71bd6cbb92e0a6593a19f50919", "message_type": "text", "update_time": "1729067001082"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:23:20,715 - root - INFO - ´ò¿ªÐÅÏ¢Ô´
+2024-10-16 16:23:20,715 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:23:20] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:23:22,557 - root - INFO - 500,{'detail': 'Internal server error'}
+2024-10-16 16:23:23,996 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"ÇëÇóÊ§°Ü","elements":[]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729067005129', 'deleted': False, 'message_id': 'om_d365340b59aab0b26df677b4cb68ae77', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729067005129', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:30:34,866 - root - INFO - ³ÌÐòÕýÔÚÍË³ö...
+2024-10-16 16:30:37,476 - root - INFO - FlaskÓ¦ÓÃÕýÔÚÔËÐÐ...
+2024-10-16 16:30:37,479 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 16:30:37,480 - apscheduler.scheduler - INFO - Added job "push_news" to job store "default"
+2024-10-16 16:30:37,480 - apscheduler.scheduler - INFO - Scheduler started
+2024-10-16 16:30:38,322 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6238
+ * Running on http://198.18.0.1:6238
+2024-10-16 16:30:38,323 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:30:40,508 - root - INFO - HTTPSConnectionPool(host='open.larksuite.com', port=443): Max retries exceeded with url: /open-apis/bot/v2/hook/81eaa28d-b4ca-40b2-8ecc-186b09ad1647 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+2024-10-16 16:30:55,756 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "8e14d4dc1501d3411d596915658385d6", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067456359", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729067456051", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_18adc3ba481b17dc958fd4fc66c934e5", "message_type": "text", "update_time": "1729067456051"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:30:55,756 - root - INFO - ´ò¿ªÐÅÏ¢Ô´
+2024-10-16 16:30:55,757 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:30:55] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:31:38,846 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "a4076f648f3dd661efa16bc5d0bc21d6", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067499460", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729067499269", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_6dfe352998fbd7e38233949217a00781", "message_type": "text", "update_time": "1729067499269"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:31:38,848 - root - INFO - ´ò¿ªÐÅÏ¢Ô´
+2024-10-16 16:31:38,849 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:31:38] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:31:42,011 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Æô¶¯ÐÅÏ¢Ô´-Á¿×ÓÎ»³É¹¦","elements":[]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729067503132', 'deleted': False, 'message_id': 'om_dfa857ead1066f20e366af68fb56051b', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729067503132', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:32:25,405 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "12396a92547731dabab0f95b91030a87", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067546014", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ¹Ø±ÕÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729067545767", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_4b9d21c0dd1ff649fcc9fd084761f8e2", "message_type": "text", "update_time": "1729067545767"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:32:25,406 - root - INFO - ¹Ø±ÕÐÅÏ¢Ô´
+2024-10-16 16:32:25,407 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:32:25] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:32:28,727 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"¹Ø±ÕÐÅÏ¢Ô´-Á¿×ÓÎ»³É¹¦","elements":[]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729067549856', 'deleted': False, 'message_id': 'om_84c428a3af3d8b35402f0f51339533c6', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729067549856', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:32:59,306 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "13fb2bc513f8c25edb5b6cf9a0569e7b", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067579954", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\" @_user_1 ´ò¿ªÐÅÏ¢Ô´-Á¿×ÓÎ»\"}", "create_time": "1729067579736", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_a8908841377a123fa97af608e5205e3f", "message_type": "text", "update_time": "1729067579736"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:32:59,306 - root - INFO - ´ò¿ªÐÅÏ¢Ô´
+2024-10-16 16:32:59,308 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:32:59] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:33:02,761 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"Æô¶¯ÐÅÏ¢Ô´-Á¿×ÓÎ»³É¹¦","elements":[]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729067583885', 'deleted': False, 'message_id': 'om_facbc03a0ad7aa469a83015cf2f936e8', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729067583885', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:33:31,249 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "303c4ae299d5c8380a6f25b423e78205", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067611916", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"ËÑË÷-AI-Ïà¹ØÐÅÏ¢Ô´\"}", "create_time": "1729067611746", "message_id": "om_ecfeecc7fea85c1a13087e2946bc01f0", "message_type": "text", "update_time": "1729067611746"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:33:31,250 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:33:31] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:33:36,100 - root - INFO - Received event: {"schema": "2.0", "header": {"event_id": "02d5415454670e1f11466a86cf1468da", "token": "Ad4IizvSdX4NaiJJD8eeOMXjMb3zfYl7", "create_time": "1729067616691", "event_type": "im.message.receive_v1", "tenant_key": "146844472dc1175a", "app_id": "cli_a784963894b8d009"}, "event": {"message": {"chat_id": "oc_f6023b492129ed5dc8e4b18130ef85f6", "chat_type": "group", "content": "{\"text\":\"@_user_1 ËÑË÷-AI-Ïà¹ØÐÅÏ¢Ô´\"}", "create_time": "1729067616487", "mentions": [{"id": {"open_id": "ou_6d521e0526c24985178b25f4a2f9aec2", "union_id": "on_ac40cec846c703dff9947ecf088e6c67", "user_id": ""}, "key": "@_user_1", "name": "information source", "tenant_key": "146844472dc1175a"}], "message_id": "om_535465d3f5445e876eb1710f049252e0", "message_type": "text", "update_time": "1729067616487"}, "sender": {"sender_id": {"open_id": "ou_d3e5a3d28378f9c554b3878d7bcc58a9", "union_id": "on_cac2b0947e19d997a99ee9f7c2b20ab6", "user_id": "5g93453c"}, "sender_type": "user", "tenant_key": "146844472dc1175a"}}}
+2024-10-16 16:33:36,101 - root - INFO - ËÑË÷ÐÅÏ¢Ô´
+2024-10-16 16:33:36,102 - werkzeug - INFO - 192.168.1.12 - - [16/Oct/2024 16:33:36] "POST /lark/event HTTP/1.1" 200 -
+2024-10-16 16:33:36,102 - root - INFO - AI
+2024-10-16 16:33:37,044 - root - INFO - <Response [200]>
+2024-10-16 16:33:37,045 - root - INFO - [[[{'name': 'Á¿×ÓÎ»', 'url': 'https://www.qbitai.com', 'category': 'ÈË¹¤ÖÇÄÜ,»úÆ÷ÈË,¿ªÔ´,»úÆ÷Ñ§Ï°,Éî¶ÈÑ§Ï°,×Ô¶¯¼ÝÊ»,GAN,ÔÆ¼ÆËã,´óÊý¾Ý,Ð¾Æ¬,¼ÆËã»úÊÓ¾õ,×ÔÈ»ÓïÑÔ´¦Àí,NLP,ÖªÊ¶Í¼Æ×', 'status': 1}, {'name': 'Techcrunch', 'url': 'https://techcrunch.com/', 'category': 'startup', 'status': 1}, {'name': 'HuggingFacePaper', 'url': 'https://huggingface.co/papers', 'category': 'Tech', 'status': 1}, {'name': 'xiaohuAI', 'url': 'https://xiaohu.ai/', 'category': 'AI', 'status': 1}, {'name': '´óÄ£ÐÍÈÕ±¨', 'url': 'https://news.miracleplus.com/feeds', 'category': 'AI', 'status': 0}, {'name': 'CointelegraphWeb3', 'url': 'https://cn.cointelegraph.com/tags/web3', 'category': 'web3', 'status': 0}]]]
+2024-10-16 16:33:38,676 - root - INFO - 200:{'code': 0, 'data': {'body': {'content': '{"title":"\U0001f680ÐÅÏ¢Ô´","elements":[[],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"xiaohuAI"}],[{"tag":"text","text":"\U0001f352¼ò½é:AI\\n\U0001f95bÁ´½Ó:"},{"tag":"a","href":"https://xiaohu.ai/","text":"https://xiaohu.ai/"}],[{"tag":"button","text":"×´Ì¬ :1","type":"default"}],[{"tag":"hr"}],[{"tag":"text","text":"\U0001f36a"},{"tag":"text","text":"´óÄ£ÐÍÈÕ±¨"}],[{"tag":"text","text":"\U0001f352¼ò½é:AI\\n\U0001f95bÁ´½Ó:"},{"tag":"a","href":"https://news.miracleplus.com/feeds","text":"https://news.miracleplus.com/feeds"}],[{"tag":"button","text":"×´Ì¬ :0","type":"default"}],[{"tag":"hr"}]]}'}, 'chat_id': 'oc_f6023b492129ed5dc8e4b18130ef85f6', 'create_time': '1729067619806', 'deleted': False, 'message_id': 'om_b1b25aa373d63bf2e88b33cf3a3e288e', 'msg_type': 'interactive', 'sender': {'id': 'cli_a784963894b8d009', 'id_type': 'app_id', 'sender_type': 'app', 'tenant_key': '146844472dc1175a'}, 'update_time': '1729067619806', 'updated': False}, 'msg': 'success'}
+2024-10-16 16:35:53,430 - root - INFO - ³ÌÐòÕýÔÚÍË³ö...

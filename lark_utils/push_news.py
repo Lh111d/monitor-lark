@@ -10,30 +10,31 @@ logging.basicConfig(filename=log_file, level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # 推送新闻
 def push_news():
-    content = {
-        "card": {
-            "elements": [],
-            "header": {}
-        }
-    }
 
     all_result = []
 
     organization_name = config.organization_name
     # 获取前一个小时的时间段
     gmt8 = pytz.timezone('Asia/Shanghai')
-    date = dt.datetime.now(gmt8)
     now = dt.datetime.now(gmt8)
     start_time = now - dt.timedelta(hours=1)  # 过去1小时
     end_time = now
     start_time_str = start_time.strftime('%Y-%m-%d %H:%M:%S')
     end_time_str = end_time.strftime('%Y-%m-%d %H:%M:%S')
 
+    print(start_time_str,end_time_str)
     source_names = get_source_name(organization_name)
-
+    print(source_names)
     results = find_news(start_time_str, end_time_str)
     for news_content in results:
         if news_content.get('source_name','') in source_names:
+            content = {
+                "card": {
+                    "elements": [],
+                    "header": {}
+                }
+            }
+
             news_data1 = {
                 "tag": "div",
                 "text": {
@@ -73,6 +74,7 @@ def push_news():
             content["card"]["elements"].append(news_data0)
             content["card"]["elements"].append(news_data1)
             content["card"]["elements"].append(news_data2)
+            print("开始推送")
             push_lark(content)
 
     return all_result
@@ -88,7 +90,7 @@ def push_lark(content):
     }
     for key, values in content.items():
         # print("/////////////////////////////////////////////////////////")
-        print(key, values)
+        # print(key, values)
         params[key] = values
     # print(params)
     try:

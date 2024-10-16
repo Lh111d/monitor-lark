@@ -1,4 +1,3 @@
-
 topic_uuid = "60329b93-66b3-49dc-80c5-f11dcc8dcbcd"
 max_retry = 3
 organization_name = "Questnx"
@@ -7,8 +6,11 @@ db_id = "76a6b495-0733-4a62-91c3-770bfd9c7643"
 
 import requests
 import json
-
-
+import logging
+# 配置日志
+log_file = "./logging.log"
+logging.basicConfig(filename=log_file, level=logging.INFO,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 url_db = 'https://data.dev.agione.ai/api/v1/data/operate'
 headers = {
     'api-key': db_api_key,
@@ -30,7 +32,6 @@ for i in data['executed_result']['query_result']['rows']:
     app_id = i[0]
     app_secret = i[1]
     webhook_url = i[2]
-
 
 
 

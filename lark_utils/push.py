@@ -62,6 +62,31 @@ def push_lark(content, receive_id):
     logging.info(f"{response.status_code}:{response.json()}")
     return 0
 
+def push_user_lark(content, receive_id):
+    content = json.dumps(content, ensure_ascii=False)
+    tenant_access_token = None
+    max_retry = config.max_retry
+    num = 0
+    while not tenant_access_token and num < max_retry:
+        tenant_access_token = get_tenant_access_token()
+        num += 1
+    receive_id_type = "user_id"
+    url = "https://open.larksuite.com/open-apis/im/v1/messages?receive_id_type={}".format(receive_id_type)
+    params = {
+        "receive_id": receive_id,
+        "content": content,
+        "msg_type": "interactive"
+    }
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {tenant_access_token}',
+    }
+    # for key, values in content.items():
+    #     params[key] = values
+    # for url in urls:
+    response = requests.post(url=url, headers=headers, json=params)
+    logging.info(f"{response.status_code}:{response.json()}")
+    return 0
 
 def test_lark(content):
     tenant_access_token = None

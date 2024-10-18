@@ -31,32 +31,36 @@ def find_all_source(content):
 
     data = response.json()['data']
 
-    if "关闭" in content:
-        for i in data['executed_result']['query_result']['rows']:
-            for items in i:
-                for item in items:
-                    if item.get('status', 2) == 0:
-                        all_items.append(
-                            [item.get('name', ''), item.get('url', ''), item.get('category', ''), item.get('status', '')])
-    elif "启动" in content:
-        for i in data['executed_result']['query_result']['rows']:
-            for items in i:
-                for item in items:
-                    if item.get('status', 2) == 1:
+    try:
+        if "关闭" in content:
+            for i in data['executed_result']['query_result']['rows']:
+                for items in i:
+                    for item in items:
+                        if item.get('status', 2) == 0:
+                            all_items.append(
+                                [item.get('name', ''), item.get('url', ''), item.get('category', ''), item.get('status', '')])
+        elif "启动" in content:
+            for i in data['executed_result']['query_result']['rows']:
+                for items in i:
+                    for item in items:
+                        if item.get('status', 2) == 1:
+                            all_items.append(
+                                [item.get('name', ''), item.get('url', ''), item.get('category', ''),
+                                 item.get('status', '')])
+        else:
+            for i in data['executed_result']['query_result']['rows']:
+                for items in i:
+                    for item in items:
                         all_items.append(
                             [item.get('name', ''), item.get('url', ''), item.get('category', ''),
                              item.get('status', '')])
-    else:
-        for i in data['executed_result']['query_result']['rows']:
-            for items in i:
-                for item in items:
-                    all_items.append(
-                        [item.get('name', ''), item.get('url', ''), item.get('category', ''),
-                         item.get('status', '')])
+
+    except Exception as e:
+        all_items = []
 
 
     contents = []
-    if response:
+    if all_items:
         mid_index = len(all_items) // 2
         segments = [all_items[:mid_index], all_items[mid_index:]]
         for segment in segments:

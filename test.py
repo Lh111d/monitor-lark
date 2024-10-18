@@ -17,8 +17,6 @@ def start_scheduler():
     # 启动调度器
     scheduler.start()
 
-    # 立即执行一次任务（可选）
-    push_news()
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)

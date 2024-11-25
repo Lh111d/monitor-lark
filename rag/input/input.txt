@@ -1,0 +1,1095 @@
+Record 1:
+ID: 15796405-9ac0-40f0-99ef-c72f1bd3d354
+Type: flow
+Tags: flow, self-hosting
+Title: General Scraper lv1
+Description: 通用爬取lv1。输入多条链接，并爬取每个链接的标题和文字。可以设置爬取方法，也可以自动选择可用的爬取方法。
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 2:
+ID: 91a9f1ad-72cd-436e-8454-2915a687d5ea
+Type: flow
+Tags: flow
+Title: (valid)API设置执行时间
+Description: API设置执行时间, 单位是秒
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 3:
+ID: fa942df4-c4ef-4289-bf64-f0e5b4bc060e
+Type: flow
+Tags: flow
+Title: 需求挖掘-仅挖掘
+Description: 选择挖掘方式，挖掘需求
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 4:
+ID: 673e20b4-dece-4bb2-9c68-46d42b0761a3
+Type: flow
+Tags: flow
+Title: Hunyuan Image Generation
+Description: 使用第三方混元hunyuan大模型生成图片的文生图API
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/V1VzwHPuhixb0Dk2scnulayjsvh
+Status: 1
+
+Record 5:
+ID: d3aad0f1-3003-48dd-884e-d832f89cea6b
+Type: flow
+Tags: flow, self-hosting
+Title: RPG 一体化串联
+Description: 用于测试RPG游戏生成的串联测试API，再后续补充SOP和素材后会变为正式版
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 6:
+ID: 99199f82-9b01-445c-93eb-f05e408e3ad0
+Type: flow
+Tags: flow
+Title: (valid)API执行延时-group
+Description: 设定的API延时时间
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 7:
+ID: 48bfdab5-9f0b-46c5-a396-9e306559b794
+Type: flow
+Tags: flow, self-hosting
+Title: split task
+Description: split task格式化输出
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 8:
+ID: 2c68e7f1-ed59-4e6b-ad9e-c3f2ff747566
+Type: flow
+Tags: flow, self-hosting
+Title: split task
+Description: 任务步骤分析
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 9:
+ID: 292af5e4-7ae6-4ca2-9b6c-bb4bd59eb533
+Type: flow
+Tags: flow, self-hosting
+Title: 代码获取sop
+Description: 内外部获取代码
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/V4Lcw9d8IiOHkRkhRT0urg5Zssd
+Status: 1
+
+Record 10:
+ID: e4a15705-aef9-4f3d-b9eb-2b4b086c22f1
+Type: flow
+Tags: flow, self-hosting
+Title: Get Arxiv Paper By Category
+Description: 根据所选分类，搜索arxiv网站该分类下的最新论文
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 11:
+ID: 63a0ee3c-e2b0-485a-a9a9-6a020e692ab4
+Type: flow
+Tags: flow, self-hosting
+Title: 财报获取[临时]
+Description: 根据公司获取财报信息和财报pdf
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 12:
+ID: 8bf9c837-13bc-44a9-9b07-f4f47d1f8494
+Type: flow
+Tags: flow, self-hosting
+Title: 需求挖掘v3并行
+Description: 需求挖掘和需求分析并行：根据用户输入、idea（upwork）、人才数据（glassdoor）、和马斯洛需求（news）来挖掘需求，然后进行需求分析分别生成环境分析报告，市场调研报告，竞争分析报告，时机分析报告，行业分析报告。
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 13:
+ID: 21c6bbac-9b02-44b1-bf0b-089dd145c212
+Type: flow
+Tags: flow, self-hosting
+Title: 标题: 基于URL的小红书内容生成器
+Description: 标题: 基于URL的小红书内容生成器
+描述：开发一个系统，自动从提供的URL中抓取内容，并生成适合小红书的文本内容。该系统不应包括用户界面，必须专注于核心功能。输入是指定的URL，输出是格式化为在小红书上发布的文本内容，不需要实际发布文章。
+预期输入：预期输入是单个URL字符串，根据标准URL语法进行格式化（例如，'https://www.jiqizhixin.com/articles/2024-04-22-9').
+预期输出：预期输出是一个文本内容字符串。文本应总结或突出显示提取的URL内容中的关键点，以便在小红书上发布。
+想法：无
+参考：无
+测试用例：1。从中刮取https://www.jiqizhixin.com/articles/2024-04-22-9，并生成一条可用于小红书的文本。
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 14:
+ID: d2db33f8-1699-43c7-b468-bf975514eeda
+Type: flow
+Tags: flow
+Title: 图片切成圆角背景留透明工具
+Description: 图片切成圆角背景留透明的工具
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/Gigow1GbLiyuDDkoJZsuMeYAsrf
+Status: 1
+
+Record 15:
+ID: 3555964b-0570-444f-8a43-b30fbd331500
+Type: flow
+Tags: flow, self-hosting, bad
+Title: 基于用户需求选取API, 并且执行
+Description: 基于用户需求选取API, 并且执行
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 16:
+ID: da1db650-c034-4b5f-af67-3ae0d81a9ae2
+Type: flow
+Tags: flow, self-hosting
+Title: ChatDemandForGame
+Description: 提供获知和提示用户输入自己想要生成的内容的能力，根据输入类型不同，可以引导用户输入不同类型的描述
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/AhfFwZdFLiE554kiLYaukA4Bsne?open_in_browser=true
+Status: 1
+
+Record 17:
+ID: ba01b606-b20d-4589-8dce-13d457436ee3
+Type: flow
+Tags: flow, self-hosting
+Title: AI ENG Debug 模块
+Description: AI ENG Debug 模块
+
+这个模块就是为了检测用户可能需要解决的bug和希望解决的问题，然后将他们整合进输入中，然后交由AI处理生成
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/R7QfwHEhWioypskm2FtuHPAlsEb
+Status: 1
+
+Record 18:
+ID: 4992384c-a294-4832-ba47-7fe759adb757
+Type: flow
+Tags: flow, self-hosting
+Title: 根据需求执行对应的API
+Description: 根据需求执行对应的API
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 19:
+ID: 4d084b44-00fa-4d5d-bedd-a4bf60d72bfb
+Type: flow
+Tags: flow
+Title: 卡牌 一体化串联
+Description: 用于测试卡牌游戏生成的串联测试API，再后续补充SOP和素材后会变为正式版
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 20:
+ID: ed4040fb-1b4a-403b-9537-25e29745b794
+Type: flow
+Tags: flow
+Title: PDF知识获取
+Description: 根据pdf链接获取pdf的内容
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 21:
+ID: 78dfd2ec-1fa7-495b-a39a-8880096be3f4
+Type: flow
+Tags: flow
+Title: 天气预报
+Description: 根据城市名称获取近日天气
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 22:
+ID: 2ae34f73-19f3-4465-932f-28586840d159
+Type: flow
+Tags: flow, self-hosting
+Title: 搜索arxiv
+Description: 根据字段搜索arxiv，并汇总论文信息
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 23:
+ID: 8dae01d7-4179-40a2-907a-e09636361ee3
+Type: flow
+Tags: flow, self-hosting
+Title: 学习报告
+Description: 根据需求任务生成一份学习报告
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 24:
+ID: 6005cea6-4210-4a8c-9bc5-5bde60638fdf
+Type: flow
+Tags: flow, self-hosting
+Title: 电影查询
+Description: 查询近日电影推荐
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 25:
+ID: 45226f97-2411-41b5-8442-fe543751f4e9
+Type: flow
+Tags: flow, self-hosting
+Title: 决策报告
+Description: 根据需求生成一份决策报告，用来辅助决策
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 26:
+ID: 4a9f94dd-2d0e-416f-8224-da0672e1c438
+Type: flow
+Tags: flow
+Title: 图片色调变化工具V1
+Description: 将一张图片变为不同色调的工具V1
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/Lc93wllwriBCOdk3XPUuz6Xjsdd
+Status: 1
+
+Record 27:
+ID: 717b4761-bc08-477e-a6a9-63ad635042b8
+Type: flow
+Tags: flow, self-hosting
+Title: AI ENG 节点Debug/Improve ASP使用版 V1
+Description: AIENG Debug/Improve  节点代码文件并上传文件到数据库
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/Iyzmw283tiOu4HkHjTMuYVmQstb
+Status: 1
+
+Record 28:
+ID: cb288079-a63f-42a6-a76b-5e1c4a42e5fc
+Type: flow
+Tags: flow, self-hosting
+Title: 天气预报
+Description: 根据城市名称获取近日天气
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 29:
+ID: e2f12b57-a62a-4cd5-8e01-2d49274ec70d
+Type: flow
+Tags: flow, self-hosting
+Title: 创新
+Description: 利用各种创新工具和方法，搭载LLM进行创新
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 30:
+ID: 29743fea-0518-4c78-954d-4a138eac8a6d
+Type: flow
+Tags: flow, self-hosting
+Title: 财报信息获取
+Description: 根据公司获取财报信息和财报pdf
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/Jt3nwC1fhiNkR5kmFwouoHgds8v
+Status: 1
+
+Record 31:
+ID: b03d1c7c-f64a-40a3-a02e-f755ed027adc
+Type: flow
+Tags: flow, self-hosting
+Title: 人人都是产品经理
+Description: 人人都是产品经理搜索
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 32:
+ID: 000e70db-1b19-451e-a67b-e523b28176a3
+Type: flow
+Tags: flow, self-hosting
+Title: AI ENG 代码生成 V3
+Description: 主要提供代码生成能力的AI ENG
+生成的语言类型包括python和C#
+目前Python部分能力主要是提供给ASG使用，C#部分能力主要是提供给unity工程使用
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/JJIWw8QifivI77kbg5RuzKIFsyR
+Status: 1
+
+Record 33:
+ID: c7680a77-c536-42b1-af2b-d16ddb284155
+Type: flow
+Tags: flow, self-hosting
+Title: 三消 一体化串联
+Description: 用于测试三消游戏生成的串联测试API，再后续补充SOP和素材后会变为正式版
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 34:
+ID: ffa015e5-c2c8-4908-be75-e56318c598ce
+Type: flow
+Tags: flow
+Title: AI ENG 代码生成 V3.1
+Description: 这个版本的代码生成的语言类型是SQL；
+目前sql部分能力是提供给素材库操作使用
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/HaYNwIASSioOm2kHct7ucPZysob
+Status: 1
+
+Record 35:
+ID: f2546a4c-bd74-4044-88d3-43dce5392d3c
+Type: flow
+Tags: flow
+Title: AI ENG 节点生成 ASP使用版 V2
+Description: AIENG 生成ASP节点代码并上传文件到数据库；
+生成AGIOne节点，节点代码生成，节点生成
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/YZX7wD2vZiiIKgkLvXFuEMMUsXd?open_in_browser=true
+Status: 1
+
+Record 36:
+ID: 10ca8903-3699-41b3-bdae-2ce53f651ae3
+Type: flow
+Tags: flow
+Title: 调研
+Description: 根据外部信息调研
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 37:
+ID: 82008bef-4376-4bd6-b62e-8b8138a91576
+Type: flow
+Tags: flow
+Title: 任务拆分v2
+Description: 适应长短文本的任务拆分
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 38:
+ID: f67e57e2-1fed-4b14-b864-21f5b1ddf684
+Type: flow
+Tags: flow
+Title: 论文知识沉淀v2
+Description: 根据提供的论文链接进行论文知识沉淀
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 39:
+ID: 524bf599-1abb-4cfa-8d65-715ce17f71a4
+Type: flow
+Tags: flow
+Title: 需求: 请提供一个智能合约的生成和部署的AI助手
+Description: 一个智能合约的生成和部署的AI助手
+Document URL: https://flow.dev.service.hyletic.com/api/docs
+Status: 1
+
+Record 40:
+ID: 895c000b-24b6-4a96-b0eb-c180d5bb9d96
+Type: project
+Tags: gen_image,style transfer, image processing, controlnet
+Title: Gen Image and Style Change API
+Description: This API performs Image Generator and style transfer on images using style images.
+Document URL: nan
+Status: 1
+
+Record 41:
+ID: c4ce14bd-c103-4039-90ca-b3faf7a1e14b
+Type: flow
+Tags: flow
+Title: search
+Description: 根据问题自动判断使用哪个搜索引擎搜索
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 42:
+ID: 717c1634-8757-46a4-a6e4-3b8b4355bbd4
+Type: project
+Tags: style transfer, image processing, controlnet
+Title: Style Change API
+Description: This API performs style transfer on images using specified parameters.
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/WruQwzHNci4rStkaMD3uotO9sEb
+Status: 1
+
+Record 43:
+ID: 44876275-4e63-4194-abbc-7b4092683718
+Type: flow
+Tags: flow, self-hosting
+Title: docx知识获取
+Description: 从doc文档中提取信息
+
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 44:
+ID: 5b7c9787-ad3a-4131-b408-9a9dee57bc83
+Type: flow
+Tags: flow
+Title: Game Sub Element 模板
+Description: nan
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 45:
+ID: 15d6b082-9048-4c06-ae35-d26b16d174b1
+Type: flow
+Tags: flow, self-hosting
+Title: URL-Based Twitter Content Generator
+Description: Title: URL-Based Twitter Content Generator
+    Desc: Develop a system that automatically scrape content from a provided URL and generates textual content suitable for a tweet. The system should not include a user interface and must focus on core functionality. The input is a specified URL, and the output is text content formatted for posting on Twitter, with no requirement to actually post the tweet.
+    Expect Input: The expected input is a single URL string, formatted according to standard URL syntax (e.g., 'https://www.jiqizhixin.com/articles/2024-04-22-9').
+    Expect Output: The expected output is a string of text content. The text should summarize or highlight key points from the extracted URL content, ready to be tweeted.
+    Ideas: None.
+    Reference: None
+    Test Case: 1. Scrape from https://www.jiqizhixin.com/articles/2024-04-22-9, and generate a tweet-ready text. 
+    Remark: Ensuring the generated tweet text adheres to Twitter's character limit.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 46:
+ID: 80031d6b-b2da-42c8-8f70-654a94d1a6e7
+Type: project
+Tags: random, food, pictures
+Title: Random Food Dish
+Description: Get a random picture of a food dish from a random category.
+Document URL: https://github.com/surhud004/Foodish#readme
+Status: 1
+
+Record 47:
+ID: 4438a52d-f326-4bd4-a9a9-a561d9e1ec63
+Type: flow
+Tags: flow, self-hosting
+Title: 解忧师
+Description: Title: 解忧师
+Desc: 开发一个问题解答系统, 用于排忧解难,忘记烦恼
+Expect Input:   问题
+Expect Output:   问题的答案
+Ideas: 无
+Reference: 无
+Test Case: 无
+Remark: 无
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 48:
+ID: bdd6a3f7-8511-4bda-bf98-7ac7375a46a0
+Type: flow
+Tags: flow, self-hosting
+Title: ResearchGPT
+Description: Title: ResearchGPT
+Desc: Generate a thorough report on a specific subject.
+Test Case: Compile a comprehensive report on Global Warming.
+Ideas: Touching on its causes, effects, and mitigation strategies. Include recent research findings and statistics.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 49:
+ID: e16dd64c-a3d4-42c0-913d-3b97c3b30bb8
+Type: project
+Tags: twitter, tweet_info
+Title: 根据推文URL或推文ID，获取推文信息
+Description: 根据推文URL或推文ID，获取推文信息
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 50:
+ID: a79f491e-6796-4805-90f1-c547f7e2670d
+Type: flow
+Tags: flow, self-hosting
+Title: 股票投资助手
+Description: 股票投资助手, 提供投资决策和股票推荐服务
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 51:
+ID: 40bbf176-22a7-4d30-822b-354730e44dbf
+Type: project
+Tags: twitter, followers
+Title: 获取指定用户的关注者（Followers）
+Description: 获取指定用户的关注者（Followers）
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 52:
+ID: 8d3ebdc6-f0d1-4d80-8d05-4fbf6160e58f
+Type: project
+Tags: search, query, neural, keyword
+Title: Exa Search
+Description: Perform a search with an Exa prompt-engineered query and retrieve a list of relevant results. Optionally get contents. /search returns a list of links relevant to your query. There are two search types - neural and keyword.
+Document URL: https://docs.exa.ai/reference/search
+Status: 1
+
+Record 53:
+ID: d9da9a84-3bdb-415b-9fc6-72472b90dbcb
+Type: project
+Tags: twitter
+Title: 获取指定用户的媒体信息
+Description: 获取指定用户的媒体信息
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 54:
+ID: a0dd5fc6-c719-4323-b79b-d551b94da245
+Type: project
+Tags: json, filter, profanity
+Title: JSON Profanity Filter
+Description: PurgoMalum is a simple, free, RESTful web service for filtering and removing content of profanity, obscenity and other unwanted text.
+Document URL: https://www.purgomalum.com/?ref=public_apis
+Status: 1
+
+Record 55:
+ID: 9f5d9749-33e2-4af6-801e-a7f8aa433815
+Type: project
+Tags: NLP, embeddings, AI
+Title: Voyage Embedding
+Description: Vectorize your data to gear up your AI stack.
+Document URL: https://docs.voyageai.com/reference/embeddings-api
+Status: 1
+
+Record 56:
+ID: 072f5842-659f-4026-b6c4-4512beb19d45
+Type: flow
+Tags: flow
+Title: 三消Step3
+Description: Interactive Language Weaving.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 57:
+ID: 716616ba-37ce-41ee-9e35-acd2f5aa208a
+Type: project
+Tags: twitter
+Title: Twitter: Get Tweet Info by Tweet ID
+Description: 根据推文ID，获取推文信息
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 58:
+ID: d8019019-470e-4af1-9a22-44edbe50da87
+Type: project
+Tags: chat, completion
+Title: Groq Create chat completion
+Description: Creates a model response for the given chat conversation.
+Document URL: https://console.groq.com/docs/api-reference#chat
+Status: 1
+
+Record 59:
+ID: 22a996c4-0655-45c5-ac97-842581acb3a7
+Type: project
+Tags: scrape, content, HTML
+Title: Firecrawl Scrape
+Description: Scrape the content of a given URL
+Document URL: https://docs.firecrawl.dev/api-reference/endpoint/scrape
+Status: 1
+
+Record 60:
+ID: e62401b1-1832-4b0a-8c19-cb43a5a16b40
+Type: project
+Tags: similar links, search, content
+Title: Find Similar Links
+Description: Find similar links to the link provided. Optionally get contents.
+Document URL: https://docs.exa.ai/reference/findsimilar
+Status: 1
+
+Record 61:
+ID: 066bfc6d-9fd8-4785-8f55-2cccab4b38b6
+Type: project
+Tags: contents, documents, retrieval
+Title: Exa Retrieve Document Contents
+Description: Retrieve contents of documents based on a list of document IDs.
+Document URL: https://docs.exa.ai/reference/findsimilar
+Status: 1
+
+Record 62:
+ID: fd52b5ee-39dc-47be-9b98-90dd8458793e
+Type: flow
+Tags: flow
+Title: 三消step5
+Description: Building Linguistic Labyrinths.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 63:
+ID: e94cef9e-90bd-4eba-9cea-104d983940bf
+Type: project
+Tags: search, query, LLM
+Title: Search API
+Description: Search for data based on a query.
+Document URL: https://docs.tavily.com/docs/rest-api/api-reference
+Status: 1
+
+Record 64:
+ID: 2b0715cb-4d41-4e49-a64b-cd216f3738c8
+Type: project
+Tags: 3d, ai, modeling, async
+Title: Text to 3D Model
+Description: 根据描述生成3d文件（异步生成）
+Document URL: https://product.agiplusone.ai/api/external/text_to_3d_model
+Status: 1
+
+Record 65:
+ID: 21dd5527-f0f6-4df7-bf8e-6527b64dff92
+Type: project
+Tags: twitter
+Title: 根据推特用户名获取用户发的推特(twitter)
+Description: 根据推特用户名获取用户发的推特(twitter)
+Document URL: https://aigc.mindcoord.com/api/tw/v1/scraper/tweets
+Status: 1
+
+Record 66:
+ID: 04c5575a-9086-41b9-8b91-621c2fa642ab
+Type: project
+Tags: spider, search
+Title: Firecrawl Search (Beta)
+Description: The search endpoint combines a search API with the power of Firecrawl to provide a powerful search experience for whatever query. It automatically searches the web for the query and returns the most relevant results from the top pages in markdown format.
+Document URL: https://docs.firecrawl.dev/api-reference/endpoint/search
+Status: 1
+
+Record 67:
+ID: eff14907-96e8-4ee4-9a36-12fdc86df318
+Type: project
+Tags: crawl,web scraping
+Title: Firecrawl Crawl
+Description: Initiates a web crawl starting from the provided base URL.
+Document URL: https://docs.firecrawl.dev/api-reference/endpoint/crawl
+Status: 1
+
+Record 68:
+ID: 08423016-b00a-465b-9bc4-d863ece4cb1c
+Type: project
+Tags: twitter, media
+Title: Twitter: Get User Media Information
+Description: 获取指定推特用户的最近N条推文
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 69:
+ID: edeb526d-a5b8-41d2-bdb1-f68d50ee3383
+Type: project
+Tags: data collect
+Title: MG Mongodb demand Task API
+Description: This API handles the MG task including get data about model fine-tuning, and evaluation.
+Document URL: nan
+Status: 1
+
+Record 70:
+ID: 88540dd4-e0fb-4665-97a8-ddf08c04894a
+Type: project
+Tags: twitter, following
+Title: 获取指定用户的关注者（Following）
+Description: 获取指定用户的关注者（Following）
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 71:
+ID: 0006f5c9-94c1-4b31-aebc-5c34be45cf70
+Type: flow
+Tags: flow
+Title: 三消Step1
+Description: Innovation in Interaction with AGIOne.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 72:
+ID: 39cf029a-16df-4759-86fb-d9b1f24053c1
+Type: project
+Tags: twitter
+Title: 根据推特用户名获取用户信息
+Description: 根据推特用户名获取用户信息
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 73:
+ID: 26a5adec-bee9-46b6-9852-486b14a3ef15
+Type: flow
+Tags: flow
+Title: 三消Step2
+Description: Innovation in Interaction with AGIOne.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 74:
+ID: 6c544432-3ab7-4158-be66-12a8e1af5eaf
+Type: project
+Tags: cancel, job, crawl
+Title: Cancel Crawl Job
+Description: Cancel an ongoing crawl job.
+Document URL: https://docs.firecrawl.dev/api-reference/endpoint/crawl-cancel
+Status: 1
+
+Record 75:
+ID: e085b394-0805-41ab-a7a3-4b75e887b9b4
+Type: project
+Tags: AI, summarize, text summarization, NLP
+Title: apyhub--AI Text Summarization API
+Description: This API generates summaries of text and web pages using AI and Natural Language Processing. The summaries can have customizable lengths and can be translated into any supported language.
+Document URL: https://apyhub.com/utility/ai-summarize?ref=public_apis#endpoints
+Status: 1
+
+Record 76:
+ID: 093a6e7d-3acd-410c-9698-ad5ceab3ee2a
+Type: flow
+Tags: flow
+Title: 三消step4
+Description: Building Linguistic Labyrinths.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 77:
+ID: 8fae0776-37ba-47ad-83f1-e0bb5400992e
+Type: project
+Tags: status, crawl
+Title: Firecrawl Get Crawl Status
+Description: This endpoint retrieves the status of a crawl job. If the job is not completed, the response includes content within partial_data. Once the job is completed, the content is available under data.
+Document URL: https://docs.firecrawl.dev/api-reference/endpoint/status
+Status: 1
+
+Record 78:
+ID: 2f789013-3368-4f3d-9952-34bd20e26107
+Type: project
+Tags: google, search, api
+Title: Google Search API
+Description: An API to perform Google searches and retrieve search results.
+Document URL: https://serper.dev/playground
+Status: 1
+
+Record 79:
+ID: 58288cee-6503-4dec-8971-bf53577138a8
+Type: project
+Tags: twitter, retweeters
+Title: Twitter: Get Tweet Retweeters
+Description: 根据推文URL或推文ID，获取推文的转发数据（Retweet）
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 80:
+ID: 61245aa9-dacc-4f9e-b7f1-c64c283377e7
+Type: project
+Tags: search, query, results
+Title: Exa Search
+Description: Perform a search with a Exa prompt-engineered query and retrieve a list of relevant results. Optionally get contents./search returns a list of links relevant to your query. There are two search types - neural and keyword.
+Document URL: https://docs.exa.ai/reference/search
+Status: 1
+
+Record 81:
+ID: d17dc7f4-2b94-4996-ae35-36a04a816289
+Type: project
+Tags: hunyuan api gen_image
+Title: Hunyuan gen image official API
+Description: This API performs secondary encapsulation for mixed-element image generation.
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/ZvP5wrDjiimHkbkXgVfuapu3sqc
+Status: 1
+
+Record 82:
+ID: b5fbe092-b611-4fa9-ba82-d767040e56c6
+Type: project
+Tags: twitter, replies
+Title: Twitter: Get Tweet Replies
+Description: 根据推文URL或推文ID，获取指定推文的回复或评论数据（Reply）
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 83:
+ID: c09791a0-d019-4134-b90b-903fb2cce8eb
+Type: project
+Tags: twitter, tweets, replies
+Title: 获取指定用户的推文及推文回复
+Description: 获取指定用户的推文及推文回复
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 84:
+ID: 662a7203-2a02-4361-851d-b8ec811977e5
+Type: project
+Tags: newsletter, news generation, email
+Title: News Letter
+Description: newsletter订阅指定的topic或者关键词，并发送到指定邮箱
+Document URL: https://product.agiplusone.ai/api/external/news_letter
+Status: 1
+
+Record 85:
+ID: a75e5db3-4fd9-4137-82c5-174c6da3b100
+Type: flow
+Tags: flow
+Title: AI Game用户引导模板Flow
+Description: 通过强引导去帮助用户输入自己想要生成的内容的描述，根据输入类型不同，可以引导用户输入不同类型的描述
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/UW77wV6iOiVWlqkzXAluBLw6srb
+Status: 1
+
+Record 86:
+ID: 713efd41-d47f-47df-9760-925e1de3a291
+Type: flow
+Tags: flow, self-hosting
+Title: Search - Youtube
+Description: 根据输入搜索youtube视频信息
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 87:
+ID: b817eee9-ae08-4da7-a887-df40207cdd39
+Type: flow
+Tags: flow, self-hosting, bad
+Title: Search - Google
+Description: 根据用户输入搜索谷歌
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 88:
+ID: f49a0ff7-5f63-44ea-a4ca-4b06d4a67d0e
+Type: project
+Tags: 代码管理
+Title: 创建代码片段
+Description: 创建一个新的代码片段
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/PaJXwkz8Ui9Y2IkqL8Su0XKVseb?open_in_browser=true
+Status: 1
+
+Record 89:
+ID: ee2f7168-000a-403f-a8a2-a3a04620b22c
+Type: flow
+Tags: flow, self-hosting
+Title: Get Post of Subreddit
+Description: 根据用户指定的subreddit获取post
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 90:
+ID: 272dc5e9-ff52-44fa-b0d4-7f4fda699d2e
+Type: flow
+Tags: flow, self-hosting
+Title: Search - Wikipedia
+Description: 根据输入搜索维基百科
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 91:
+ID: 730e5392-6125-41c4-b1d0-9015bf3557e2
+Type: flow
+Tags: flow
+Title: 输入user prompt和system prompt去Call LiteLLM的节点获得结果
+Description: 输入user prompt和system prompt去Call LiteLLM的节点获得结果
+Document URL: https://flow.dev.service.hyletic.com/api/docs
+Status: 1
+
+Record 92:
+ID: 15ee2fa0-4e26-49d2-be67-aa67c4da368c
+Type: flow
+Tags: flow
+Title: 短期三消游戏Json生成step
+Description: Language Chainlink Master.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 93:
+ID: e4e9176f-df2c-4a12-acb5-48765db69f72
+Type: flow
+Tags: flow, self-hosting
+Title: Search - DuckDuckGo
+Description: 根据用户输入搜索DuckDuckGo
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 94:
+ID: 52e3ff55-2012-4a3e-aa69-7e2feb3f71bb
+Type: flow
+Tags: flow, self-hosting
+Title: Arxiv Paper Analysis
+Description: 根据用户输入，读取并分析论文pdf，然后回答问题。
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 95:
+ID: f4e27249-f82c-4c89-8c66-f6c3765d2720
+Type: project
+Tags: search, query, AI
+Title: Tavily Search API
+Description: Search for data based on a query.
+Document URL: https://docs.tavily.com/docs/tavily-api/rest_api
+Status: 1
+
+Record 96:
+ID: 70ce7e55-97bf-4eef-a0a8-0e799e8394bf
+Type: project
+Tags: twitter, search
+Title: Twitter: Search Tweets by Keyword
+Description: 根据关键字，在推特上搜索相关推文
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 97:
+ID: 7fc7fd17-eaab-46b7-b619-0c4ed71b4a15
+Type: project
+Tags: emoji, all, free, public-api
+Title: Get All Emojis
+Description: Fetch an array of all available emojis, can be filtered by category or group.
+Document URL: https://github.com/cheatsnake/emojihub
+Status: 1
+
+Record 98:
+ID: 4d3ab131-ed1c-410d-a916-554f1e3b7a2a
+Type: project
+Tags: twitter
+Title: Twitter: Get Tweets by User
+Description: This API retrieves tweets from a specified user based on user ID or username.
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 99:
+ID: 248a79fa-701a-468c-b691-45eb0e8cc934
+Type: project
+Tags: twitter, retweeters
+Title: 根据推文URL，获取推文的转发数据（Retweet）
+Description: 根据推文URL，获取推文的转发数据（Retweet）
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/BChVwtIiliTaPWkTiqYupoShsWc
+Status: 1
+
+Record 100:
+ID: 60f75643-8c0b-4d42-8f26-1e489238a1a0
+Type: project
+Tags: emoji, random, food-and-drink, free, public-api
+Title: Get Random Emoji from Food and Drink Category
+Description: Fetch a random emoji from the food and drink category.
+Document URL: https://github.com/cheatsnake/emojihub
+Status: 1
+
+Record 101:
+ID: 71e07136-de8f-4212-b988-ec4f5eb52c94
+Type: flow
+Tags: flow, self-hosting
+Title: URL-Based Twitter Content Generator
+Description: Title: URL-Based Twitter Content Generator
+Desc: Develop a system that automatically scrapes content from a provided URL and generates textual content suitable for a tweet. The system should not include a user interface and must focus on core functionality. The input is a specified URL, and the output is text content formatted for posting on Twitter, with no requirement to actually post the tweet.
+Expect Input: The expected input is a single URL string, formatted according to standard URL syntax (e.g., 'https://www.jiqizhixin.com/articles/2024-04-22-9').
+Expect Output: The expected output is a string of text content. The text should summarize or highlight key points from the extracted URL content, ready to be tweeted.
+Ideas: None.
+Reference: None
+Test Case: 1. Scrape from https://www.jiqizhixin.com/articles/2024-04-22-9, and generate a tweet-ready text.
+Remark: Ensuring the generated tweet text adheres to Twitter's character limit.
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 102:
+ID: a9301353-9373-4241-9ce4-94aecd6c1cbf
+Type: project
+Tags: ip, geoip, network
+Title: Return Requesting IP
+Description: This endpoint returns the requesters IP. You can specify a custom callback for the JSONP endpoint. You cannot lookup multiple IPs on this endpoint.
+Document URL: https://www.geojs.io/docs/v1/endpoints/ip/
+Status: 1
+
+Record 103:
+ID: 7b923081-3243-4080-b08f-e289c10ba9bd
+Type: project
+Tags: data, search engine, query
+Title: Search API
+Description: Search for data based on a query using Tavily Search, the best search engine tailored for LLM Agents.
+Document URL: https://docs.tavily.com/docs/tavily-api/rest_api
+Status: 1
+
+Record 104:
+ID: 85a0b85a-3773-44e2-ab25-d91f3d897ddf
+Type: project
+Tags: llm fine-tuning, dataset, upload
+Title: Upload text fine-tuning dataset via URL
+Description: This API enables users to upload a fine-tuning dataset file directly from a specified URL.
+Document URL: nan
+Status: 1
+
+Record 105:
+ID: 6c808fef-7ff9-454e-8ed3-d10f01c7f063
+Type: project
+Tags: llm, fine-tuning
+Title: Fine-Tune LLM Model
+Description: This API initiates the fine-tuning process for a specified LLM model using a given dataset and configuration.
+Document URL: nan
+Status: 1
+
+Record 106:
+ID: 8a8d0d87-2e83-4ee3-82fb-960c6d88305d
+Type: project
+Tags: all, emojis
+Title: Get an array of all emojis
+Description: Provides an array of all emojis in the database.
+Document URL: https://github.com/cheatsnake/emojihub/blob/master
+Status: 1
+
+Record 107:
+ID: ec9031a5-2c1b-4a71-b03e-9c14647d4f57
+Type: project
+Tags: emoji, random, face-positive, free, public-api
+Title: Get Random Emoji from Face Positive Group
+Description: Fetch a random emoji from the face positive group.
+Document URL: https://github.com/cheatsnake/emojihub
+Status: 1
+
+Record 108:
+ID: 8f133347-d9c1-4592-9958-510e23542ccb
+Type: project
+Tags: emoji, all, travel-and-places, free, public-api
+Title: Get All Emojis from Travel and Places Category
+Description: Fetch all emojis from the travel and places category.
+Document URL: https://github.com/cheatsnake/emojihub
+Status: 1
+
+Record 109:
+ID: 56323aae-491f-4514-8e69-4fe6a355dd2f
+Type: project
+Tags: emoji, all, animal-bird, free, public-api
+Title: Get All Emojis from Animal Bird Group
+Description: Fetch all emojis from the animal bird group.
+Document URL: https://github.com/cheatsnake/emojihub
+Status: 1
+
+Record 110:
+ID: fefb2b9b-6617-4308-8695-d79e2bd27558
+Type: project
+Tags: pose generation, media upload
+Title: Upload iamge and video for PoseVideo Generation by MusePose
+Description: This API allows users to upload a list of media files (images and videos) for pose generation.
+Document URL: https://hfbc4zhv5y.larksuite.com/wiki/OQd2wrHaAiyjrUkcVG0uDjVmsMh
+Status: 1
+
+Record 111:
+ID: e7aeb950-2d04-4eda-b8c6-201b13c35038
+Type: project
+Tags: random, useless, fact
+Title: Get Random Useless Fact
+Description: Retrieve a random useless fact
+Document URL: https://uselessfacts.jsph.pl/
+Status: 1
+
+Record 112:
+ID: 125b3eea-5cf1-4134-8200-7180f16c1f71
+Type: project
+Tags: today, useless, fact
+Title: Get Today's Useless Fact
+Description: Retrieve today's useless fact
+Document URL: https://uselessfacts.jsph.pl/
+Status: 1
+
+Record 113:
+ID: e4ecad32-b2f4-42ac-b35c-4947e0c5e3d1
+Type: flow
+Tags: flow, self-hosting
+Title: Apple_app_search
+Description: Apple app search review
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 114:
+ID: 13b98515-287c-4516-a4ed-0da58d2fc435
+Type: flow
+Tags: flow, self-hosting
+Title: Apple_app_scrapy
+Description: Apple_app_scrapy
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 115:
+ID: ce929310-e7ad-4b7d-ae14-cf47edfa93da
+Type: flow
+Tags: flow, self-hosting
+Title: AI ENG 代码参考搜索调用代码模块
+Description: 调用各个获取代码生成参考结果的接口
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+
+Record 116:
+ID: 560b984f-9d0b-470e-95c0-f4eb3fa4429c
+Type: project
+Tags: meme,图片生成
+Title: Meme Generator
+Description: Generates memes
+Document URL: https://apimeme.com/
+Status: 1
+
+Record 117:
+ID: c731a4e2-f8d9-4c96-9e41-3b01f87c9153
+Type: flow
+Tags: flow, self-hosting
+Title: 执行Python代码
+Description: 执行Python代码, 并返回执行结果
+Document URL: https://flow.service.agione.ai/docs
+Status: 1
+

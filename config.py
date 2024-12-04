@@ -6,7 +6,7 @@ db_id = "76a6b495-0733-4a62-91c3-770bfd9c7643"
 model_name = "openai/gpt-4o-mini"
 temperature = "0.3"
 max_tokens = "4096"
-ai_api_key = 'as-IZ0I0qkGBbIm7owj8z5Z_Q'
+ai_api_key = 'as-x9slk4txw8jfL_bTzq4gBA'
 project_id = "monitor_news_os213jxs"
 
 
